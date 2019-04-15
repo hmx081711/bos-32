@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.hmx</groupId>
-    <artifactId>e3-parent</artifactId>
+    <artifactId>e3-manage</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>e3-manage-web</artifactId>
