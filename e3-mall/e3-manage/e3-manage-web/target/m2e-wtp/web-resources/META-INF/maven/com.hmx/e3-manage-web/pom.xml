@@ -7,8 +7,7 @@
   </parent>
   <artifactId>e3-manage-web</artifactId>
   <packaging>war</packaging>
-  <description>子工程，用于存放web层代码和前端界面文件
-</description>
+  <description>子工程，用于存放web层代码和前端界面文件</description>
 
   <dependencies>
   	<dependency>
