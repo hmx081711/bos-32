@@ -10,8 +10,14 @@
     <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
 </head>
 <body>
-    <div class="easyui-draggable" style="height:300px;width: 300px;border:1px solid #cccccc" data-options="handle:'#title'"><div id="title" style="background-color: #cccccc">可拖拽</div></div>
-    <div id="drag" style="height:200px;width: 200px;border:1px solid #cccccc"><div id="title2" style="background-color: #cccccc">可拖拽(javascript)</div></div>
+    <div class="easyui-draggable" style="height:300px;width: 300px;border:1px solid #cccccc" data-options="handle:'#title'">
+        <div id="title" style="background-color: #cccccc">可拖拽</div>
+    </div>
+    <div id="drag" style="height:200px;width: 200px;border:1px solid #cccccc">
+        <div id="title2" style="background-color: #cccccc">可拖拽(javascript)</div>
+    </div>
+
+    <!-- 利用javascript初始化drag-->
     <script type="text/javascript">
         $(function () {
             $("#drag").draggable({
