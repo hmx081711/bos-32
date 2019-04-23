@@ -10,6 +10,23 @@
     <script type="text/javascript" src="/js/easyui-lang-zh_CN.js"></script>
 </head>
 <body>
-    <div class="easyui-pagination" data-options="total:100"></div>
+    <!--total 数据总数 pageList 每页的数据个数-->
+    <div id="pagination" class="easyui-pagination" data-options="total:100,pageList:[10,20,30,40]"></div>
+    <!--添加按钮 buttons:[iconCls 图标类型 handler 处罚的事件]-->
+    <script type="text/javascript">
+        $('#pagination').pagination({
+            buttons:[
+                {
+                    'iconCls':'icon-add','handler':function () {
+                    alert('add');
+                }
+                     },
+                {
+                    'iconCls':'icon-save','handler':function () {
+                        alert('save');
+                    }
+                }],
+        })
+    </script>
 </body>
 </html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js初始化panel</title>
+    <link rel="stylesheet" type="text/css" href="/js/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/js/themes/icon.css">
+    <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body>
+    <div id="panel" style="height: 300px;width: 300px"></div>
+    <!--利用按钮来控制panel的打开关闭-->
+    <button onclick="$('#panel').panel('open')">打开</button>
+    <button onclick="$('#panel').panel('close')">关闭</button>
+    <script type="text/javascript">
+        $('#panel').panel({
+            title:'js初始化panel',
+            closable:true,
+            minimizable:true,
+            collapsible:true,
+            maximizable:true,
+            tools:[
+                {
+                    'iconCls':'icon-add',
+                    'handler':function () {
+                        <!--触发重新加载事件方法refresh-->
+                        $('#panel').panel('refresh','/pages/searchbox/category.html')
+                    }
+                },
+                {
+                    'iconCls':'icon-save',
+                    'handler':function () {
+                        alert('save');
+                    }
+                }
+                ],
+            href:'/pages/progressbar/basic.html',
+            <!--触发加载事件-->
+            onLoad:function () {
+                alert("loading-----")
+            }
+        })
+    </script>
+</body>
+</html>

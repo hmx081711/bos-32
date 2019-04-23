@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础面板</title>
+    <link rel="stylesheet" type="text/css" href="/js/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/js/themes/icon.css">
+    <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body>
+    <!--title:面板标题 iconCls:面板的图标 collapsible:是否可以折叠 minimizable/maximizable最小最大化 closable:是否可关闭
+        tools:自定义状态栏-->
+    <div class="easyui-panel" style="width: 300px;height: 300px" data-options="title:'基础面板',iconCls:'icon-save',collapsible:true,maximizable:true,minimizable:true,closable:true,tools:'#tt'">
+        <p>你好</p>
+    </div>
+    <div id="tt">
+        <a href="#" class="icon-add" onclick="javascript:alert('add')"></a>
+        <a href="#" class="icon-edit" onclick="javascript:alert('edit')"></a>
+    </div>
+    <!--href 远程调用-->
+    <div class="easyui-panel" style="width: 300px;height: 300px" data-options="href:'/pages/progressbar/basic.html'"></div>
+</body>
+</html>
