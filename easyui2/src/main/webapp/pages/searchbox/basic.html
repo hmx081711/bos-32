@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索框</title>
+    <link rel="stylesheet" type="text/css" href="/js/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/js/themes/icon.css">
+    <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+</head>
+<body>
+    <!--普通搜索框 -->
+    <div id="searchbox1" class="easyui-searchbox" style="width: 300px;" data-options="searcher:doSearch"></div>
+
+    <!--取searchbox中的值-->
+    <script type="text/javascript">
+        function doSearch(value) {
+            alert(value);
+        }
+    </script>
+</body>
+</html>
