@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js来操作tabs</title>
+    <link rel="stylesheet" type="text/css" href="/js/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/js/themes/icon.css">
+    <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body>
+    <div id="tabs2" class="easyui-tabs"></div>
+    <input id="name" type="text" />
+    <button onclick="addTabs()">添加</button>
+    <button onclick="removeTabs()">删除</button>
+    <script type="text/javascript">
+        $(function () {
+            addTabs();
+            removeTabs();
+
+        })
+
+        function addTabs() {
+            var name = $('#name').val();
+            <!--添加新选项卡-->
+            if ($('#tabs2').tabs('exists',name)) {
+                $('#tabs2').tabs('select',name);
+            } else {
+                $('#tabs2').tabs('add',{
+                    title:name,
+                    selected:true,
+                    <!--设置选项卡可关闭-->
+                    closable:true,
+                })
+            }
+        }
+        function removeTabs() {
+            var name = $('#name').val();
+            $('#tabs2').tabs('close',name);
+        }
+    </script>
+</body>
+</html>

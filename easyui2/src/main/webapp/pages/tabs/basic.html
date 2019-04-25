@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选项卡</title>
+    <link rel="stylesheet" type="text/css" href="/js/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/js/themes/icon.css">
+    <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body>
+    <!--tabPosition 改变标签栏的位置-->
+    <div id="tabs" class="easyui-tabs" style="height: 500px;width: 300px" data-options="tabPosition:'bottom'">
+        <!--远程调用界面-->
+        <div title="tab1" data-options="href:'/pages/progressbar/basic.html'">选项卡1</div>
+        <div title="tab2">选项卡2</div>
+        <!--标题嵌入图片-->
+        <div title="<img src='/js/themes/icons/no.png' style='margin-top:5px' />">选项卡3</div>
+    </div>
+
+    <script type="text/javascript">
+        $('#tabs').tabs({
+            tools:[{
+                'iconCls':'icon-add',
+                'handler':function () {
+                    alert('add');
+                }
+            },
+                {
+                    'iconCls':'icon-remove',
+                    'handler':function () {
+                        alert('remove');
+                    }
+                }]
+        })
+    </script>
+</body>
+</html>

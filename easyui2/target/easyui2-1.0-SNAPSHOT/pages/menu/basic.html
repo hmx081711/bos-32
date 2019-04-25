@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>右键菜单</title>
+    <link rel="stylesheet" type="text/css" href="/js/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/js/themes/icon.css">
+    <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body>
+    <div id="mm" class="easyui-menu" style="width: 100px" data-options="onClick:menuHandler">
+        <div data-options="'iconCls':'icon-add',name:'New'">New</div>
+        <!--分割线-->
+        <div  class="menu-sep"></div>
+        <!--层级菜单-->
+        <div data-options="'iconCls':'icon-save',name:'Save'">
+            <!--用span来表示当前子元素的菜单-->
+            <span>Sub</span>
+            <!--用div来表示所有子菜单选项-->
+            <div>
+                <div><span>sub1-1</span></div>
+                <div>
+                    <span>sub1-2</span>
+                    <div>
+                        <div><span>sub1-2-1</span></div>
+                        <div><span>sub1-2-2</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-options="'iconCls':'icon-edit',name:'Edit'">Edit</div>
+    </div>
+
+    <script type="text/javascript">
+        <!--为菜单绑定右击事件-->
+        $(function () {
+            $(document).bind('contextmenu',function (e) {
+                <!--禁止默认的行为-->
+                e.preventDefault();
+                $('#mm').menu('show',{
+                    <!--设置菜单显示的位置-->
+                    top:e.pageY,
+                    left:e.pageX
+                })
+            })
+        })
+        
+        <!--菜单点击事件 显示name属性-->
+        function menuHandler(item) {
+            alert(item.name);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全局布局</title>
+    <link rel="stylesheet" type="text/css" href="/js/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/js/themes/icon.css">
+    <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body id="layout" class="easyui-layout">
+        <div data-options="region:'north',title:'Nouth'" style="height: 50px">这是北部区域</div>
+        <div data-options="region:'south',title:'South'" style="height: 50px">这是南部区域</div>
+        <div data-options="region:'west',title:'West',collapsible:false" style="width: 100px">这是西部区域</div>
+        <div data-options="region:'east',title:'East'" style="width: 100px">这是东部区域</div>
+        <!--动态加载href-->
+        <!--<div data-options="region:'center',title:'Center',href:'basic.html'">这是中部区域</div>-->
+        <div data-options="region:'center',title:'Center'">这是中部区域</div>
+</body>
+</html>
