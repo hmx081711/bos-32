@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3mall/e3mall.iml" filepath="$PROJECT_DIR$/e3mall/e3mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3mallweb/e3mallweb.iml" filepath="$PROJECT_DIR$/e3mallweb/e3mallweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3manage/e3manage.iml" filepath="$PROJECT_DIR$/e3manage/e3manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3manage/e3-manage-dao/e3managedao.iml" filepath="$PROJECT_DIR$/e3manage/e3-manage-dao/e3managedao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3manage/e3-manage-interface/e3manageinterface.iml" filepath="$PROJECT_DIR$/e3manage/e3-manage-interface/e3manageinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/e3managepojo.iml" filepath="$PROJECT_DIR$/e3manage/e3-manage-pojo/e3managepojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3manage/e3-manage-service/e3manageservice.iml" filepath="$PROJECT_DIR$/e3manage/e3-manage-service/e3manageservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3manage/pagehelper-fix/pagehelperfix.iml" filepath="$PROJECT_DIR$/e3manage/pagehelper-fix/pagehelperfix.iml" />
+    </modules>
+  </component>
+</project>

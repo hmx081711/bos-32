@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="e3manageservice:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02808353-f732-4be6-be68-8527c2c9f989" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-common/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-common/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-common/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-common/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-common/target/classes/META-INF/maven/com.hmx/e3-common/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-common/target/classes/META-INF/maven/com.hmx/e3-common/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-common/target/classes/META-INF/maven/com.hmx/e3-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-common/target/classes/META-INF/maven/com.hmx/e3-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-dao/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-dao/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-dao/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-dao/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-dao/target/classes/META-INF/maven/com.hmx/e3-manage-dao/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-dao/target/classes/META-INF/maven/com.hmx/e3-manage-dao/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-interface/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-interface/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-interface/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-interface/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-interface/target/classes/META-INF/maven/com.hmx/e3-manage-interface/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-interface/target/classes/META-INF/maven/com.hmx/e3-manage-interface/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-pojo/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-pojo/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-pojo/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-pojo/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-pojo/target/classes/META-INF/maven/com.hmx/e3-manage-pojo/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-pojo/target/classes/META-INF/maven/com.hmx/e3-manage-pojo/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-service/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-service/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-service/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-service/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-service/target/classes/META-INF/maven/com.hmx/e3-manage-service/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-service/target/classes/META-INF/maven/com.hmx/e3-manage-service/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-web/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-web/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-web/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-web/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-web/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-web/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-web/target/m2e-wtp/web-resources/META-INF/maven/com.hmx/e3-manage-web/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-manage/e3-manage-web/target/m2e-wtp/web-resources/META-INF/maven/com.hmx/e3-manage-web/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyui2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../easyui2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/e3mall/target/" />
+    <ignored path="$PROJECT_DIR$/e3manage/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/e3manage/e3-manage-dao/target/" />
+    <ignored path="$PROJECT_DIR$/e3manage/e3-mall-controller/target/" />
+    <ignored path="$PROJECT_DIR$/e3manage/e3-manage-interface/target/" />
+    <ignored path="$PROJECT_DIR$/service/target/" />
+    <ignored path="$PROJECT_DIR$/e3manage/e3-mall-web/target/" />
+    <ignored path="$PROJECT_DIR$/e3manage/service/target/" />
+    <ignored path="$PROJECT_DIR$/e3manage/e3-manage-service/target/" />
+    <ignored path="$PROJECT_DIR$/e3mallweb/target/" />
+    <ignored path="$PROJECT_DIR$/e3manage/pagehelper-fix/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>theme</find>
+      <find>themes</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/e3manage/e3-mall-controller/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/service/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-mall-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-mall-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/service/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_manage/mapper/TbItemCatMapper.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-interface/src/main/java/com/hmx/e3_manage/ItemService.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_manage/service/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_manage/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/e3mallweb/target/classes/springmvc.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/item-add.jsp" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/hmx/e3_common/pojo/EasyUiTreeNode.java" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-interface/src/main/java/com/hmx/e3_interface/ItemCatService.java" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_interface/controller/ItemCatController.java" />
+        <option value="$PROJECT_DIR$/e3manage/pom.xml" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_interface/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemCatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ItemCatController.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/e3mallweb/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItem.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemExample.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemDescExample.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemDesc.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemCatExample.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemCat.java" />
+        <option value="$PROJECT_DIR$/e3manage/pagehelper-fix/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/TsetPage.java" />
+        <option value="$PROJECT_DIR$/e3mall/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/test/java/TsetPage.java" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-interface/src/main/java/com/hmx/e3_interface/ItemService.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/SqlMapperConfig.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/hmx/e3_common/pojo/EasyUiDataGridresult.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="e3-manage-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="e3-manage-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="353" />
+    <option name="y" value="37" />
+    <option name="width" value="1405" />
+    <option name="height" value="785" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="e3-mall-version2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="e3manageservice" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3mallweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3mallweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3mallweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3mallweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556777136812" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
+    <property name="jdk.selected.JAVA_MODULE" value="11 (2)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/e3manage" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3448276" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\eclipse\e3-mall-version2\e3manage" />
+      <recent name="E:\eclipse\e3-mall-version2\e3manage\e3-mall-controller\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\eclipse\e3-mall-version2\e3manage\e3-manage-service\src\test" />
+      <recent name="E:\eclipse\e3-mall-version2\e3manage\pagehelper-fix\src\main\java" />
+      <recent name="E:\eclipse\e3-mall-version2\" />
+      <recent name="E:\eclipse\e3-mall-version2\e3manage\e3-manage-service\src\main\java\com\hmx\e3_service" />
+      <recent name="E:\eclipse\e3-mall-version2\e3manage\e3-manage-pojo\src\main\java\com\hmx\e3_pojo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.e3mall-web [clean,tomcat7:run]">
+    <configuration name="ItemCatController.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e3mallweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmx.e3_web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmx.e3_web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hmx.e3_web.controller.ItemCatController" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemCatServiceImpl.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e3manageservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmx.e3_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmx.e3_service" />
+      <option name="MAIN_CLASS_NAME" value="com.hmx.e3_service.ItemCatServiceImpl" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TsetPage.t1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e3manageservice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TsetPage" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TsetPage.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e3manageservice" />
+      <option name="PACKAGE_NAME" value="com.hmx.e3_service" />
+      <option name="MAIN_CLASS_NAME" value="com.hmx.e3_service.TsetPage" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TsetPage.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e3manageservice" />
+      <option name="PACKAGE_NAME" value="com.hmx.e3_service" />
+      <option name="MAIN_CLASS_NAME" value="com.hmx.e3_service.TsetPage" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="e3-manage-service [clean,tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/e3manage/e3-manage-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="e3mall-web [clean,tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/e3mallweb" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="e3mall-web [install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/e3mallweb" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="e3mallweb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_17_e3-mall-version2_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62768" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/e3mallweb_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="e3mallweb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/e3mallweb_war_exploded" />
+          </settings>
+        </artifact>
+        <artifact name="e3manageservice:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_e3-mall-version2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62768" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="service" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="e3manageservice:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_17_(1)_e3-mall-version2" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62768" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ItemCatController.t1" />
+      <item itemvalue="JUnit.ItemCatServiceImpl.t1" />
+      <item itemvalue="JUnit.TsetPage.t1" />
+      <item itemvalue="JUnit.TsetPage.t1 (1)" />
+      <item itemvalue="Maven.e3mall-web [clean,tomcat7:run]" />
+      <item itemvalue="Maven.e3-manage-service [clean,tomcat7:run]" />
+      <item itemvalue="Maven.e3mall-web [install]" />
+      <item itemvalue="Tomcat Server.service" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.17" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TsetPage.t1 (1)" />
+        <item itemvalue="JUnit.TsetPage.t1" />
+        <item itemvalue="JUnit.TsetPage.t1 (1)" />
+        <item itemvalue="JUnit.ItemCatServiceImpl.t1" />
+        <item itemvalue="JUnit.ItemCatController.t1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02808353-f732-4be6-be68-8527c2c9f989" name="Default Changelist" comment="" />
+      <created>1556345893779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556345893779</updated>
+      <workItem from="1556345899551" duration="18430000" />
+      <workItem from="1556366695751" duration="634000" />
+      <workItem from="1556367345242" duration="4551000" />
+      <workItem from="1556372430134" duration="1614000" />
+      <workItem from="1556374062352" duration="2569000" />
+      <workItem from="1556417530661" duration="11722000" />
+      <workItem from="1556431178089" duration="13678000" />
+      <workItem from="1556447031387" duration="2099000" />
+      <workItem from="1556449879367" duration="2140000" />
+      <workItem from="1556512789477" duration="771000" />
+      <workItem from="1556513581027" duration="4072000" />
+      <workItem from="1556601516506" duration="1017000" />
+      <workItem from="1556763212526" duration="10757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TsetPage_t1 - 2019.05.02 at 10h 53m 58s.xml">
+      <configuration name="TsetPage.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsetPage_t1 - 2019.05.02 at 10h 54m 31s.xml">
+      <configuration name="TsetPage.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsetPage_t1 - 2019.05.02 at 10h 55m 29s.xml">
+      <configuration name="TsetPage.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsetPage_t1 - 2019.05.02 at 10h 56m 37s.xml">
+      <configuration name="TsetPage.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsetPage_t1_(1) - 2019.05.02 at 10h 58m 23s.xml">
+      <configuration name="TsetPage.t1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsetPage_t1_(1) - 2019.05.02 at 11h 06m 30s.xml">
+      <configuration name="TsetPage.t1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsetPage_t1 - 2019.05.02 at 11h 08m 49s.xml">
+      <configuration name="TsetPage.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsetPage_t1_(1) - 2019.05.02 at 11h 10m 41s.xml">
+      <configuration name="TsetPage.t1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsetPage_t1_(1) - 2019.05.02 at 11h 16m 11s.xml">
+      <configuration name="TsetPage.t1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsetPage_t1_(1) - 2019.05.02 at 11h 16m 53s.xml">
+      <configuration name="TsetPage.t1 (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="74054000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.20844504" />
+      <window_info id="Structure" order="1" sideWeight="0.5013405" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3150134" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3297587" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3297587" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.35656837" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297587" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.21179625" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.2627346" />
+      <window_info id="Structure" order="1" sideWeight="0.5013405" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.9597855" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3297587" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3297587" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.35656837" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297587" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.21179625" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/item-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/item-param-list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/item-list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/item-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/index-item.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/content.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/content-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1046">
+          <caret line="10" column="111" selection-start-line="10" selection-start-column="111" selection-end-line="10" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbItemCatMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.4.RELEASE/spring-jdbc-4.2.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-interface/src/main/java/com/hmx/e3_interface/ItemCatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/hmx/e3_common/pojo/EasyUiTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/target/tomcat/logs/access_log.2019-04-28" />
+    <entry file="file://$PROJECT_DIR$/e3mallweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="97" column="24" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbItemCatExample.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbItemCatMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemDescExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemDesc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemCatExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbItemCat.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagehelper/src/main/java/com/github/pagehelper/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/test/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/pagehelper-fix/src/main/java/com/github/pagehelper/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mall/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="182" column="48" selection-start-line="182" selection-start-column="48" selection-end-line="182" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/test/java/TsetPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#768#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/pagehelper-fix/src/main/java/com/github/pagehelper/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/hmx/e3_common/pojo/EasyUiDataGridresult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/SqlMapperConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-interface/src/main/java/com/hmx/e3_interface/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-793">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/pagehelper-fix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>e3mallweb:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3448276" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3448276" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jsp-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3448276" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3448276" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>e3managepojo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3448276" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3448276" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
