@@ -28,5 +28,6 @@
     <dubbo:application name="e3mallweb"/>
     <dubbo:registry protocol="zookeeper" address="localhost:2181"/>
     <dubbo:reference interface="com.hmx.e3_interface.ItemService" id="itemService"/>
-    <dubbo:reference interface="com.hmx.e3_interface.ItemCatService" id="ItemCatService"/>
+    <dubbo:reference interface="com.hmx.e3_interface.ItemCatService" id="itemCatService"/>
+    <dubbo:reference interface="com.hmx.e3_interface.ItemDescService" id="itemDescService"/>
 </beans>
