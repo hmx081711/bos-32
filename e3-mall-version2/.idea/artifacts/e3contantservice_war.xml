@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="e3contantservice:war">
+    <output-path>$PROJECT_DIR$/e3contant/e3-contant-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>e3contantservice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="e3-contant-service.war">
+      <element id="artifact" artifact-name="e3contantservice:war exploded" />
+    </root>
+  </artifact>
+</component>

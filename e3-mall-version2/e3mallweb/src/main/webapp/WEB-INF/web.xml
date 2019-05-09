@@ -8,6 +8,7 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 
+
     <!--配置前端控制器-->
     <servlet>
         <servlet-name>InternalResourceViewResolver</servlet-name>

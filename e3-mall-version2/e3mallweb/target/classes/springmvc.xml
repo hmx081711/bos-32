@@ -30,4 +30,5 @@
     <dubbo:reference interface="com.hmx.e3_interface.ItemService" id="itemService"/>
     <dubbo:reference interface="com.hmx.e3_interface.ItemCatService" id="itemCatService"/>
     <dubbo:reference interface="com.hmx.e3_interface.ItemDescService" id="itemDescService"/>
+    <dubbo:reference interface="com.hmx.content.interf.ContentCatgory" id="contentCategory"/>
 </beans>

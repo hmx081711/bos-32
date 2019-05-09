@@ -7,16 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="e3contantinterface" />
+        <module name="e3contantservice" />
         <module name="e3mallweb" />
         <module name="e3managedao" />
         <module name="e3manageinterface" />
         <module name="e3managepojo" />
         <module name="e3manageservice" />
+        <module name="e3protalweb" />
         <module name="pagehelperfix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.7" />
+      <module name="e3contant" target="1.7" />
+      <module name="e3contantinterface" target="1.7" />
+      <module name="e3contantservice" target="1.7" />
       <module name="e3mall" target="1.7" />
       <module name="e3mallweb" target="1.7" />
       <module name="e3manage" target="1.7" />
@@ -24,6 +30,7 @@
       <module name="e3manageinterface" target="1.7" />
       <module name="e3managepojo" target="1.7" />
       <module name="e3manageservice" target="1.7" />
+      <module name="e3protalweb" target="1.7" />
       <module name="pagehelperfix" target="1.7" />
       <module name="service" target="1.7" />
     </bytecodeTargetLevel>

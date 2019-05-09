@@ -6,10 +6,12 @@
     </list>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/e3contant/e3-contant-service" />
     <file type="web" url="file://$PROJECT_DIR$/e3mallweb" />
     <file type="web" url="file://$PROJECT_DIR$/e3manage/e3-mall-web" />
     <file type="web" url="file://$PROJECT_DIR$/e3manage/e3-manage-service" />
     <file type="web" url="file://$PROJECT_DIR$/e3manage/service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3protalweb" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -19,11 +21,10 @@
         <option value="$PROJECT_DIR$/e3manage/pom.xml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/e3mallweb/pom.xml" />
+        <option value="$PROJECT_DIR$/e3protalweb/pom.xml" />
+        <option value="$PROJECT_DIR$/e3contant/pom.xml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbItemDescMapper.xml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11 (2)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
