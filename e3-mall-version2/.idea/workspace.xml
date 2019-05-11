@@ -7,38 +7,184 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02808353-f732-4be6-be68-8527c2c9f989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/e3mallweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/e3mallweb_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/e3manageservice_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/e3manageservice_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/e3protalweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/e3protalweb_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3mallweb/e3mallweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/e3mallweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3mallweb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-interface/src/main/java/com/hmx/content/interf/ContentCatgory.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-interface/src/main/java/com/hmx/content/interf/ContentCatgory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-interface/target/classes/com/hmx/content/interf/ContentCatgory.class" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-interface/target/classes/com/hmx/content/interf/ContentCatgory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-interface/target/e3-contant-interface.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-interface/target/e3-contant-interface.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-service/src/main/java/com/hmx/content/service/ContentCategoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-service/src/main/java/com/hmx/content/service/ContentCategoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-service/src/main/resources/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-service/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-service/target/classes/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-service/target/classes/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-service/target/classes/com/hmx/content/service/ContentCategoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-service/target/classes/com/hmx/content/service/ContentCategoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3contant/e3-contant-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3contant/e3-contant-service/target/tomcat/logs/access_log.2019-05-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ContentCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ContentCatController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3mallweb/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/content-category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/content-category.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/target/classes/com/hmx/e3_web/controller/ContentCatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/target/classes/com/hmx/e3_web/controller/ContentCatController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3mallweb/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/target/classes/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3mallweb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3mallweb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/logs/access_log.2019-05-06" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dlist_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dlist_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/logs/access_log.2019-05-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_002dcategory_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_002dcategory_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dparam_002dlist_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3mallweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dparam_002dlist_jsp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-dao/e3managedao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-dao/e3managedao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbContentCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbContentCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-dao/target/classes/com/hmx/e3_dao/mapper/TbContentCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-dao/target/classes/com/hmx/e3_dao/mapper/TbContentCategoryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-dao/target/e3-manage-dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-dao/target/e3-manage-dao.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-interface/e3manageinterface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-interface/e3manageinterface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/e3managepojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/e3managepojo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategoryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbContentCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbContentCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbContentCategoryExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbContentCategoryExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbContentCategoryExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbContentCategoryExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbContentCategoryExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbContentCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbContentCategoryExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/classes/com/hmx/e3_pojo/TbContentCategoryExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/e3-manage-pojo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/e3-manage-pojo.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-service/e3manageservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3-manage-service/e3manageservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-service/target/tomcat/logs/access_log.2019-05-06" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3manage/e3manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/e3manage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3manage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3manage/e3-manage-service/target/tomcat/logs/access_log.2019-05-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/e3protalweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/e3protalweb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/src/main/java/com/hmx/e3_protal_web/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/src/main/java/com/hmx/e3_protal_web/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/classes/com/hmx/e3_protal_web/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/target/classes/com/hmx/e3_protal_web/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/classes/com/hmx/e3_protal_web/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/jsp/commons/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/jsp/commons/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/jsp/commons/mainmenu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/jsp/commons/shortcut.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/aspectjweaver-1.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/commons-codec-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/dubbo-2.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/httpclient-4.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/httpcore-4.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/jackson-annotations-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/jackson-core-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/jackson-databind-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/javassist-3.15.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/slf4j-log4j12-1.6.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-jms-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-messaging-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/css/base_w1200.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/bottom_sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/cate_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/foot/cd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/foot/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/foot/qc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/foot/qq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/foot/sf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/foot_bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/g_loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/160x160-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/160x160-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/160x160-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/160x160-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/160x160-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/160x160-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/160x160-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/160x160-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/26336113289bf7273823080488a9d200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/751d2091c008c2a49c1934545730f041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/8f42d6d2deead3da7d50c8a702a3c939.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/goods/c11e0d59289782b09ea1cbcb98070017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/042cc65a4fb9899878f2f37235ca1793.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/1463455028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/1463456854.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/1468837571.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/1471311388.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/1471311447.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/1472521203.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/1472521236.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/1472521250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/1748dcf682d7f595012e4309695d71d9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/20160829181637762.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/26336113289bf7273823080488a9d200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/2a3ba6ffb33d8fca0dc848f94e3d99d8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/49111b8189bf71370cdb145f8fdb1195.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/4dd7317569a06a451c1fe7762d6bf928.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/516e4d058d1d65a3506e179642297b2d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/51e357022c1f826f13211222831a4b13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/600c425e04b41f49e451d2fdbafb6e45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/751d2091c008c2a49c1934545730f041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/757e35fab995b43c23b4396dc3ba4269.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/7a80fda907bf5107f6967add2a304a51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/838abc2055e36f423701de255bbc9914.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/8f42d6d2deead3da7d50c8a702a3c939.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/95256f5b2857ec28914f631532508d76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/aa472cb9f9624d22d1fcfd1c4dffbe42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/c11e0d59289782b09ea1cbcb98070017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/c3449a684bebe21f5b6c6c79e46791ff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/cf33d7d36f1128577782ded21fe812a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/ddf3f66b114f3a3bfbbe0b47693cdbf0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/de66a063548629c8d4e639523d8c9c6e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/e886f76e03f7a3596033eb34ca362339.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/html/logo_word.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/indexImg20130307.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/index_icon_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/indexsprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/kxicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/left_lm_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/left_lm_m_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/images/logo66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/js/e3mall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/js/global_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/js/jquery-1.4.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/e3-protal-web/js/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/tomcat/logs/access_log.2019-05-07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/mainmenu_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/mainmenu_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3protalweb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3-mall/e3-common/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-common/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3-mall/e3-common/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-common/.project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3-mall/e3-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-mall/e3-common/pom.xml" afterDir="false" />
@@ -102,26 +248,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ContentCatController.java">
+        <entry file="file://$PROJECT_DIR$/e3protalweb/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="51" />
+            <state relative-caret-position="380">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/java/com/hmx/e3_protal_web/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#547#569#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-service/src/main/java/com/hmx/content/service/ContentCategoryImpl.java">
+        <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/webapp/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1178#1194#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -152,15 +313,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_interface/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_interface/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemCatServiceImpl.java" />
-        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItem.java" />
-        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemExample.java" />
-        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemDescExample.java" />
-        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemDesc.java" />
         <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemCatExample.java" />
         <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemCat.java" />
         <option value="$PROJECT_DIR$/e3manage/pagehelper-fix/pom.xml" />
@@ -180,29 +332,38 @@
         <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ItemDescController.java" />
         <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemDescServiceImpl.java" />
         <option value="$PROJECT_DIR$/e3manage/e3-manage-interface/src/main/java/com/hmx/e3_interface/ItemService.java" />
-        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/e3protalweb/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/e3protalweb/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/e3protalweb/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/e3protalweb/src/main/java/com/hmx/e3_protal_web/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/e3contant/e3-contant-interface/pom.xml" />
         <option value="$PROJECT_DIR$/e3contant/pom.xml" />
         <option value="$PROJECT_DIR$/e3manage/pom.xml" />
         <option value="$PROJECT_DIR$/e3contant/e3-contant-service/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/e3contant/e3-contant-interface/src/main/java/com/hmx/content/interf/ContentCatgory.java" />
-        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategoryExample.java" />
-        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategory.java" />
         <option value="$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbContentCategoryMapper.java" />
         <option value="$PROJECT_DIR$/e3mallweb/pom.xml" />
-        <option value="$PROJECT_DIR$/e3mallweb/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ContentCatController.java" />
         <option value="$PROJECT_DIR$/e3contant/e3-contant-service/pom.xml" />
-        <option value="$PROJECT_DIR$/e3protalweb/pom.xml" />
-        <option value="$PROJECT_DIR$/e3contant/e3-contant-service/src/main/resources/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbContentCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategory.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategoryExample.java" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/content-category.jsp" />
+        <option value="$PROJECT_DIR$/e3contant/e3-contant-interface/src/main/java/com/hmx/content/interf/ContentCatgory.java" />
         <option value="$PROJECT_DIR$/e3contant/e3-contant-service/src/main/java/com/hmx/content/service/ContentCategoryImpl.java" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ContentCatController.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbContentMapper.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbContentMapper.xml" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/e3contant/e3-contant-service/src/main/resources/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContent.java" />
+        <option value="$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentExample.java" />
+        <option value="$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/e3contant/e3-contant-interface/src/main/java/com/hmx/content/interf/ContentServce.java" />
+        <option value="$PROJECT_DIR$/e3contant/e3-contant-service/src/main/java/com/hmx/content/service/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/e3protalweb/pom.xml" />
+        <option value="$PROJECT_DIR$/e3protalweb/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/e3protalweb/src/main/java/com/hmx/e3_protal_web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/e3protalweb/src/main/resources/content.properties" />
+        <option value="$PROJECT_DIR$/e3protalweb/src/main/webapp/WEB-INF/jsp/index.jsp" />
       </list>
     </option>
   </component>
@@ -237,7 +398,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="350" />
     <option name="y" value="35" />
     <option name="width" value="1405" />
@@ -249,6 +410,97 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3contant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -260,148 +512,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3contant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3contant" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-contant-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3contant" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-contant-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3contant" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-contant-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3contant" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-contant-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3contant" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-contant-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3contant" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-contant-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3contant" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-contant-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3contant" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-contant-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3mallweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3mallweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3mallweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3manage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3manage" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manage-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3manage" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manage-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3manage" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manage-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3manage" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manage-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3manage" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manage-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3manage" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manage-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-mall-version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3protalweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557412049274" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557546376975" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="jdk.selected.JAVA_MODULE" value="11 (2)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/e3manage" />
@@ -420,8 +537,8 @@
       <recent name="E:\eclipse\e3-mall-version2\e3manage\e3-mall-controller\src\main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\eclipse\e3-mall-version2\e3manage\e3-manage-dao\src\main\java\com\hmx\e3_dao\mapper" />
       <recent name="E:\eclipse\e3-mall-version2\e3manage\e3-manage-pojo\src\main\java\com\hmx\e3_pojo" />
+      <recent name="E:\eclipse\e3-mall-version2\e3manage\e3-manage-dao\src\main\java\com\hmx\e3_dao\mapper" />
       <recent name="E:\eclipse\e3-mall-version2\e3contant\e3-contant-service\src\main\webapp\WEB-INF" />
       <recent name="E:\eclipse\e3-mall-version2\e3contant\e3-contant-service\src\main\resources" />
       <recent name="E:\eclipse\e3-mall-version2\e3contant\e3-contant-service\src\main" />
@@ -439,7 +556,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.e3mall-web [clean,tomcat7:run]">
+  <component name="RunManager" selected="Maven.e3-protal-web [clean,tomcat7:run]">
     <configuration name="TsetPage.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="e3manageservice" />
       <option name="PACKAGE_NAME" value="com.hmx.e3_service" />
@@ -502,31 +619,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="e3-manage [install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="install" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/e3manage" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
     <configuration name="e3-protal-web [clean,tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -555,6 +647,31 @@
               <list>
                 <option value="clean" />
                 <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/e3protalweb" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="e3-protal-web [install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -823,7 +940,7 @@
       <item itemvalue="Maven.e3-protal-web [clean,tomcat7:run]" />
       <item itemvalue="Maven.e3mall-web [clean,tomcat7:run]" />
       <item itemvalue="Maven.e3-manage [clean,tomcat7:run]" />
-      <item itemvalue="Maven.e3-manage [install]" />
+      <item itemvalue="Maven.e3-protal-web [install]" />
       <item itemvalue="Maven.e3-contant-service [clean,tomcat7:run]" />
       <item itemvalue="Tomcat Server.service" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.17" />
@@ -865,6 +982,10 @@
       <workItem from="1557220924762" duration="7801000" />
       <workItem from="1557289725789" duration="1350000" />
       <workItem from="1557402093705" duration="10016000" />
+      <workItem from="1557454850784" duration="10067000" />
+      <workItem from="1557468298308" duration="6011000" />
+      <workItem from="1557476998025" duration="11168000" />
+      <workItem from="1557540667167" duration="4203000" />
     </task>
     <servers />
   </component>
@@ -901,7 +1022,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116740000" />
+    <option name="totallyTimeSpent" value="148189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -913,10 +1034,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="280" y="28" width="1124" height="628" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.2774799" />
-      <window_info id="Structure" order="1" sideWeight="0.5013405" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49597856" visible="true" weight="0.45309567" />
+      <window_info id="Structure" order="1" sideWeight="0.50334674" side_tool="true" weight="0.2855228" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -993,184 +1114,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-interface/src/main/java/com/hmx/e3_interface/ItemDescService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/item-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="100" column="19" lean-forward="true" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ItemDescController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemDescServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding>
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-966">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/item-edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-interface/src/main/java/com/hmx/e3_interface/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3mallweb/e3-protal-web/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/item-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="141" column="43" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/SqlMapperConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/webapp/WEB-INF/jsp/commons/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/webapp/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3protalweb/target/tomcat/conf/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2261">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/java/com/hmx/e3_protal_web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3mall/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="133" column="12" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-570" />
@@ -1183,20 +1126,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-service/src/main/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-service/src/main/applicationContext-service.xml" />
     <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbItemDescMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1218,24 +1152,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategoryExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e3manage/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3mallweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1032">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1260,48 +1180,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-interface/src/main/java/com/hmx/content/interf/ContentCatgory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3protalweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1837">
-          <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1153">
           <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-service/src/main/resources/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1312,13 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbContentCategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1342,24 +1217,289 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ContentCatController.java">
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbItemCat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="51" />
+        <state relative-caret-position="76">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentCategoryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/item-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#7;n#table#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/resources/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#1100#1118#0" expanded="true" />
+            <element signature="e#1243#1260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="206" column="15" lean-forward="true" selection-start-line="206" selection-start-column="15" selection-end-line="206" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbContentCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="124" column="35" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ItemDescController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-service/src/main/java/com/hmx/content/service/ContentCategoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="621">
+          <caret line="101" column="50" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1178#1194#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ContentCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-interface/src/main/java/com/hmx/content/interf/ContentCatgory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemDescServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/content-category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContentExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbContentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-service/src/main/java/com/hmx/e3_service/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+          <folding>
+            <element signature="method#getItemList#0;class#ItemServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-dao/src/main/java/com/hmx/e3_dao/mapper/TbContentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="326" column="10" selection-start-line="326" selection-start-column="10" selection-end-line="326" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/src/main/java/com/hmx/e3_pojo/TbContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-service/src/main/resources/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="93" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-interface/src/main/java/com/hmx/content/interf/ContentServce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/java/com/hmx/e3_web/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3contant/e3-contant-service/src/main/java/com/hmx/content/service/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/content-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/content.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1442">
+          <caret line="99" column="65" lean-forward="true" selection-start-line="99" selection-start-column="65" selection-end-line="99" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3protalweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3mallweb/src/main/webapp/WEB-INF/jsp/content-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/resources/content.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/java/com/hmx/e3_protal_web/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#547#569#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/webapp/images/goods/160x160-6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3protalweb/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>

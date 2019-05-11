@@ -27,4 +27,5 @@
     <dubbo:protocol name="dubbo" port="20881"/>
     <!--声明爆露服务的接口-->
     <dubbo:service interface="com.hmx.content.interf.ContentCatgory" ref="contentCategoryImpl"/>
+    <dubbo:service interface="com.hmx.content.interf.ContentServce" ref="contentServiceImpl"/>
 </beans>
