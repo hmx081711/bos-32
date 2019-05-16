@@ -22,7 +22,7 @@
     <!--使用dubbo发布服务-->
     <dubbo:application name="e3-manage"/>
     <!--使用zookeeper注册服务-->
-    <dubbo:registry protocol="zookeeper" address="localhost:2181"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.208.133:2181"/>
     <!--爆露服务的端口-->
     <dubbo:protocol name="dubbo" port="20880"/>
     <!--声明爆露服务的接口-->

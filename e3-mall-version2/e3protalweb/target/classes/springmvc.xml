@@ -26,6 +26,6 @@
     </bean>
     <!--引用服务-->
     <dubbo:application name="e3protalweb"/>
-    <dubbo:registry protocol="zookeeper" address="localhost:2181"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.208.133:2181"/>
     <dubbo:reference interface="com.hmx.content.interf.ContentServce" id="contentService"/>
 </beans>

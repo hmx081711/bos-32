@@ -15,11 +15,15 @@
         <module name="e3managepojo" />
         <module name="e3manageservice" />
         <module name="e3protalweb" />
+        <module name="fastdfs_client" />
         <module name="pagehelperfix" />
+        <module name="sreach_interface" />
+        <module name="sreach_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.7" />
+      <module name="e3_search" target="1.7" />
       <module name="e3contant" target="1.7" />
       <module name="e3contantinterface" target="1.7" />
       <module name="e3contantservice" target="1.7" />
@@ -31,8 +35,11 @@
       <module name="e3managepojo" target="1.7" />
       <module name="e3manageservice" target="1.7" />
       <module name="e3protalweb" target="1.7" />
+      <module name="fastdfs_client" target="1.7" />
       <module name="pagehelperfix" target="1.7" />
       <module name="service" target="1.7" />
+      <module name="sreach_interface" target="1.7" />
+      <module name="sreach_service" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

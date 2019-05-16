@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sreach_service:war">
+    <output-path>$PROJECT_DIR$/e3_search/sreach_service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sreach_service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sreach_service.war">
+      <element id="artifact" artifact-name="sreach_service:war exploded" />
+    </root>
+  </artifact>
+</component>

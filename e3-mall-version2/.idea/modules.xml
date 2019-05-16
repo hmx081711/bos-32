@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3_search/e3_search.iml" filepath="$PROJECT_DIR$/e3_search/e3_search.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3contant/e3contant.iml" filepath="$PROJECT_DIR$/e3contant/e3contant.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3contant/e3-contant-interface/e3contantinterface.iml" filepath="$PROJECT_DIR$/e3contant/e3-contant-interface/e3contantinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3contant/e3-contant-service/e3contantservice.iml" filepath="$PROJECT_DIR$/e3contant/e3-contant-service/e3contantservice.iml" />
@@ -14,7 +15,10 @@
       <module fileurl="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/e3managepojo.iml" filepath="$PROJECT_DIR$/e3manage/e3-manage-pojo/e3managepojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3manage/e3-manage-service/e3manageservice.iml" filepath="$PROJECT_DIR$/e3manage/e3-manage-service/e3manageservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3protalweb/e3protalweb.iml" filepath="$PROJECT_DIR$/e3protalweb/e3protalweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" filepath="$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3manage/pagehelper-fix/pagehelperfix.iml" filepath="$PROJECT_DIR$/e3manage/pagehelper-fix/pagehelperfix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3_search/sreach_interface/sreach_interface.iml" filepath="$PROJECT_DIR$/e3_search/sreach_interface/sreach_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3_search/sreach_service/sreach_service.iml" filepath="$PROJECT_DIR$/e3_search/sreach_service/sreach_service.iml" />
     </modules>
   </component>
 </project>

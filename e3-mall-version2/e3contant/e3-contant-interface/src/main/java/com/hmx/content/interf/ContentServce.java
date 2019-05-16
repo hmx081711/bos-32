@@ -10,7 +10,7 @@ public interface ContentServce {
     EasyUiDataGridresult showContentList(long categoryId,Integer page, Integer rows);
     TaotaoResult addContent(TbContent tbContent);
     TaotaoResult editContent(TbContent tbContent);
-    TaotaoResult deleteContent(long ids);
+    TaotaoResult deleteContent(Long ids);
     List<TbContent> getContentBycid(Long cid);
 
 }

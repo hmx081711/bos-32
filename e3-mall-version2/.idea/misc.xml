@@ -6,6 +6,7 @@
     </list>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/e3_search/sreach_service" />
     <file type="web" url="file://$PROJECT_DIR$/e3contant/e3-contant-service" />
     <file type="web" url="file://$PROJECT_DIR$/e3mallweb" />
     <file type="web" url="file://$PROJECT_DIR$/e3manage/e3-mall-web" />
@@ -18,11 +19,13 @@
       <list>
         <option value="$PROJECT_DIR$/e3mall/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/e3manage/pom.xml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/e3mallweb/pom.xml" />
         <option value="$PROJECT_DIR$/e3protalweb/pom.xml" />
         <option value="$PROJECT_DIR$/e3contant/pom.xml" />
+        <option value="$PROJECT_DIR$/fastdfs_client/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manage/pom.xml" />
+        <option value="$PROJECT_DIR$/sceach/pom.xml" />
       </list>
     </option>
   </component>
