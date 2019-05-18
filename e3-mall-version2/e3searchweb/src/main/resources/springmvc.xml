@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/mvc
+           http://www.springframework.org/schema/mvc/spring-mvc.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <context:component-scan base-package="com.hmx.e3_search_web.controller"/>
+    <context:annotation-config/>
+    <context:property-placeholder location="classpath:resource.properties"/>
+    <!--开启mvc的注解配置-->
+    <mvc:annotation-driven/>
+    <!--注册前端控制器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--设置url拦截的前缀-->
+        <property name="prefix" value="/WEB-INF/jsp/"></property>
+        <!--设置url拦截的后缀-->
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+    <!--引用服务-->
+    <dubbo:application name="e3protalweb"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.208.133:2181"/>
+    <dubbo:reference interface="com.hmx.searchService.SearchService" id="searchService"/>
+</beans>

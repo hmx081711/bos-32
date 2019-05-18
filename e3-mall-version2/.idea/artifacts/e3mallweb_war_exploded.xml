@@ -33,6 +33,13 @@
           <element id="archive" name="e3-contant-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="e3contantinterface" />
           </element>
+          <element id="archive" name="sreach_interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="sreach_interface" />
+          </element>
+          <element id="library" level="project" name="Maven: org.apache.solr:solr-solrj:4.10.3" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.3.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.7" />
+          <element id="library" level="project" name="Maven: org.noggit:noggit:0.5" />
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
           <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.7" />

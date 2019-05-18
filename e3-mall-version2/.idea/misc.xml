@@ -13,6 +13,8 @@
     <file type="web" url="file://$PROJECT_DIR$/e3manage/e3-manage-service" />
     <file type="web" url="file://$PROJECT_DIR$/e3manage/service" />
     <file type="web" url="file://$PROJECT_DIR$/e3protalweb" />
+    <file type="web" url="file://$PROJECT_DIR$/e3searchweb" />
+    <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -26,6 +28,8 @@
         <option value="$PROJECT_DIR$/fastdfs_client/pom.xml" />
         <option value="$PROJECT_DIR$/e3manage/pom.xml" />
         <option value="$PROJECT_DIR$/sceach/pom.xml" />
+        <option value="$PROJECT_DIR$/e3_search/pom.xml" />
+        <option value="$PROJECT_DIR$/e3searchweb/pom.xml" />
       </list>
     </option>
   </component>
