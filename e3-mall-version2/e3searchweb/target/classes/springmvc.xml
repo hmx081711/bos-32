@@ -23,6 +23,8 @@
         <!--设置url拦截的后缀-->
         <property name="suffix" value=".jsp"></property>
     </bean>
+    <!--配置全局异常处理器-->
+    <bean id="globalExceptionResovler" class="com.hmx.e3_search_web.exceptionResolver.GlobalExceptionResovler"></bean>
     <!--引用服务-->
     <dubbo:application name="e3protalweb"/>
     <dubbo:registry protocol="zookeeper" address="192.168.208.133:2181"/>

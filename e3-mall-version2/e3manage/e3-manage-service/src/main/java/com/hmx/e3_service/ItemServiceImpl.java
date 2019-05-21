@@ -6,16 +6,17 @@ import com.hmx.e3_common.pojo.EasyUiDataGridresult;
 import com.hmx.e3_common.pojo.IDUtils;
 import com.hmx.e3_common.pojo.TaotaoResult;
 import com.hmx.e3_dao.mapper.TbItemDescMapper;
-import com.hmx.e3_pojo.TbItemDesc;
-import com.hmx.e3_pojo.TbItemExample;
-import org.springframework.beans.factory.annotation.Autowired;
-
-
 import com.hmx.e3_dao.mapper.TbItemMapper;
 import com.hmx.e3_interface.ItemService;
 import com.hmx.e3_pojo.TbItem;
+import com.hmx.e3_pojo.TbItemDesc;
+import com.hmx.e3_pojo.TbItemExample;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 
+import javax.jms.*;
 import java.util.Date;
 import java.util.List;
 
@@ -31,6 +32,10 @@ public class ItemServiceImpl implements ItemService{
 	private TbItemMapper tbitemMapper;
 	@Autowired
 	private TbItemDescMapper tbItemDescMapper;
+	@Autowired
+	private JmsTemplate jmsTemplate;
+	@Autowired
+	private Destination destination;
 	@Override
 	public TbItem findItemByd(Long id) {
 		// TODO Auto-generated method stub
@@ -68,7 +73,7 @@ public class ItemServiceImpl implements ItemService{
 	@Override
 	public TaotaoResult addItem(TbItem item, String desc) {
 		//1.生成商品id
-		long itemId = IDUtils.genItemId();
+		final long itemId = IDUtils.genItemId();
 		//2.保存商品信息
 		item.setId(itemId);
 		//'商品状态，1-正常，2-下架，3-删除'
@@ -82,10 +87,17 @@ public class ItemServiceImpl implements ItemService{
 		tbItemDesc.setItemDesc(desc);
 		tbItemDesc.setCreated(date);
 		tbItemDesc.setUpdated(date);
-
 		// 插入数据
 		tbitemMapper.insert(item);
 		tbItemDescMapper.insert(tbItemDesc);
+		//发送消息
+		jmsTemplate.send(destination, new MessageCreator() {
+			@Override
+			public Message createMessage(Session session) throws JMSException {
+				TextMessage textMessage = session.createTextMessage(itemId + "");
+				return textMessage;
+			}
+		});
 		return TaotaoResult.ok();
 	}
 

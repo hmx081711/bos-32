@@ -1,1 +1,2 @@
 com\hmx\e3_search_web\controller\SearchController.class
+com\hmx\e3_search_web\exceptionResolver\GlobalExceptionResovler.class

@@ -32,6 +32,8 @@ public class SearchController {
         keyword = new String(keyword.getBytes("iso-8859-1"),"utf-8");
         //调用服务查询
         SearchResult searchItemList = searchService.getSearchItemList(keyword, page, SEARCH_RESULT_ROWS);
+        //测试全局异常处理器
+//        int a = 1/0;
         //把结果传递给界面
         model.addAttribute("totalPages",searchItemList.getTotalPages());
         model.addAttribute("recourdCount",searchItemList.getRecourdCount());

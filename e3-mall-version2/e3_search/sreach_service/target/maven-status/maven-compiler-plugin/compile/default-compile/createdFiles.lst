@@ -1,3 +1,5 @@
 com\hmx\mapper\SearchMapper.class
+com\hmx\messagelistener\AddtemMessageLintener.class
 com\hmx\searchServiceImpl\SearchServiceImpl.class
+com\hmx\messagelistener\MessageLinster.class
 com\hmx\dao\SrearchDao.class

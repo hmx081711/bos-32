@@ -49,6 +49,7 @@
             <element id="module-output" name="pagehelperfix" />
           </element>
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9" />
+          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.11.2" />
           <element id="archive" name="common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="common" />
           </element>
