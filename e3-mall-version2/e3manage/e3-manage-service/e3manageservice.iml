@@ -17,19 +17,10 @@
     </facet>
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="ApplicationContext" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/applicationContext-activemq.xml</file>
-        </fileset>
-        <fileset id="fileset2" name="ApplicationContext Dao" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/applicationContext-dao.xml</file>
-        </fileset>
-        <fileset id="fileset3" name="ApplicationContext Service" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/applicationContext-service.xml</file>
-        </fileset>
-        <fileset id="fileset4" name="Spring Application Context" removed="false">
+        <fileset id="fileset" name="applicationContext" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext-activemq.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext-dao.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext-redis.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext-service.xml</file>
           <file>jar://$MAVEN_REPOSITORY$/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar!/org/jboss/netty/container/spring/beans.xml</file>
           <file>file://$MAVEN_REPOSITORY$/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar</file>

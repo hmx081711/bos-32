@@ -4,14 +4,12 @@ import com.hmx.e3_common.pojo.EasyUiDataGridresult;
 import com.hmx.e3_common.pojo.TaotaoResult;
 import com.hmx.e3_interface.ItemService;
 import com.hmx.e3_pojo.TbItem;
-import com.hmx.e3_pojo.TbItemDesc;
-import org.apache.zookeeper.server.Request;
-import org.jboss.netty.handler.codec.http.HttpRequest;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.server.ServletServerHttpRequest;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Date;
 
@@ -48,18 +46,18 @@ public class ItemController {
     /**
      * 商品添加展示界面
      * @param item POST请求的商品对象信息
-     * @param itemDesc POST请求的商品描述
+     * @param desc POST请求的商品描述
      * @return TaotaoResult对象
      */
     @RequestMapping(value = "/item/save",method = RequestMethod.POST)
     @ResponseBody
-    public TaotaoResult addItemHandler(TbItem item,String itemDesc) {
-        TaotaoResult result = itemService.addItem(item, itemDesc);
+    public TaotaoResult addItemHandler(TbItem item,String desc) {
+        TaotaoResult result = itemService.addItem(item, desc);
         return result;
     }
 
     /**
-     * 回显数据
+     * 回显数
      * @return 编辑界面
      */
     @RequestMapping(value = "/rest/page/item-edit")

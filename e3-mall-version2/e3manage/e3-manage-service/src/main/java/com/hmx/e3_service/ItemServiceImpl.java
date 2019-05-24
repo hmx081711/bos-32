@@ -2,8 +2,10 @@ package com.hmx.e3_service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.hmx.e3_common.jedis.JedisClient;
 import com.hmx.e3_common.pojo.EasyUiDataGridresult;
 import com.hmx.e3_common.pojo.IDUtils;
+import com.hmx.e3_common.pojo.JsonUtils;
 import com.hmx.e3_common.pojo.TaotaoResult;
 import com.hmx.e3_dao.mapper.TbItemDescMapper;
 import com.hmx.e3_dao.mapper.TbItemMapper;
@@ -11,7 +13,9 @@ import com.hmx.e3_interface.ItemService;
 import com.hmx.e3_pojo.TbItem;
 import com.hmx.e3_pojo.TbItemDesc;
 import com.hmx.e3_pojo.TbItemExample;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
@@ -36,10 +40,35 @@ public class ItemServiceImpl implements ItemService{
 	private JmsTemplate jmsTemplate;
 	@Autowired
 	private Destination destination;
+	@Autowired
+	private JedisClient jedisClient;
+
+	@Value("${ITEM_INFO_PRE}")
+	private String ITEM_INFO_PRE;
+	@Value("${ITEM_CACHE_EXPIRE}")
+	private Integer ITEM_CACHE_EXPIRE;
+
 	@Override
 	public TbItem findItemByd(Long id) {
-		// TODO Auto-generated method stub
-		return tbitemMapper.selectByPrimaryKey(id);
+		//查询缓存
+		try {
+			String s = jedisClient.get(ITEM_INFO_PRE + id + ":BASE");
+			if (StringUtils.isNotBlank(s)) {
+				TbItem tbItem = JsonUtils.jsonToPojo(s, TbItem.class);
+				return tbItem;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		TbItem tbItem = tbitemMapper.selectByPrimaryKey(id);
+		// 存缓存
+		try {
+			jedisClient.set(ITEM_INFO_PRE + id +":BASE", JsonUtils.objectToJson(tbItem));
+			jedisClient.expire(ITEM_INFO_PRE + id +":BASE",ITEM_CACHE_EXPIRE);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return tbItem;
 	}
 
 	/**

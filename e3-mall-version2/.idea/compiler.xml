@@ -9,6 +9,7 @@
         <module name="common" />
         <module name="e3contantinterface" />
         <module name="e3contantservice" />
+        <module name="e3itemweb" />
         <module name="e3mallweb" />
         <module name="e3managedao" />
         <module name="e3manageinterface" />
@@ -16,6 +17,9 @@
         <module name="e3manageservice" />
         <module name="e3protalweb" />
         <module name="e3searchweb" />
+        <module name="e3ssointerface" />
+        <module name="e3ssoservice" />
+        <module name="e3ssoweb" />
         <module name="fastdfs_client" />
         <module name="pagehelperfix" />
         <module name="sreach_interface" />
@@ -28,6 +32,7 @@
       <module name="e3contant" target="1.7" />
       <module name="e3contantinterface" target="1.7" />
       <module name="e3contantservice" target="1.7" />
+      <module name="e3itemweb" target="11" />
       <module name="e3mall" target="1.7" />
       <module name="e3mallweb" target="1.7" />
       <module name="e3manage" target="1.7" />
@@ -37,6 +42,10 @@
       <module name="e3manageservice" target="1.7" />
       <module name="e3protalweb" target="1.7" />
       <module name="e3searchweb" target="1.7" />
+      <module name="e3ssointerface" target="1.7" />
+      <module name="e3ssomanage" target="1.7" />
+      <module name="e3ssoservice" target="1.7" />
+      <module name="e3ssoweb" target="1.7" />
       <module name="fastdfs_client" target="1.7" />
       <module name="pagehelperfix" target="1.7" />
       <module name="sceach" target="1.7" />

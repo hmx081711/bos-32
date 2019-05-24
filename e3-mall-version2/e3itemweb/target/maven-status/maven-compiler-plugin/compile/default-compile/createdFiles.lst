@@ -1,0 +1,4 @@
+com\hmx\e3_item_web\poto\Item.class
+com\hmx\e3_item_web\controller\FreeMarkerTestConteroller.class
+com\hmx\e3_item_web\listener\HttpGenListener.class
+com\hmx\e3_item_web\controller\DetailsController.class

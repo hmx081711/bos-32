@@ -1,3 +1,0 @@
-0:0:0:0:0:0:0:1 - - [21/May/2019:12:19:20 +0800] "GET /html/web/_public/_ajaxStaticMenu.html?v20140430 HTTP/1.1" 404 949 http-bio-8085-exec-1 32
-0:0:0:0:0:0:0:1 - - [21/May/2019:12:19:25 +0800] "GET /search.html?keyword=32 HTTP/1.1" 200 43104 http-bio-8085-exec-2 1122
-0:0:0:0:0:0:0:1 - - [21/May/2019:12:19:57 +0800] "GET /html/web/_public/_ajaxStaticMenu.html?v20140430 HTTP/1.1" 404 949 http-bio-8085-exec-5 1
