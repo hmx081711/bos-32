@@ -7,6 +7,8 @@
     <!--导入数据库-->
     <import resource="classpath:applicationContext-dao.xml"/>
 
+    <!--加载配置文件-->
+    <context:property-placeholder location="classpath:resource.properties"/>
     <!--扫描服务层-->
     <context:component-scan base-package="com.hmx.e3_ssoServiceImpl"/>
     <!--开启注解开发-->
@@ -26,5 +28,8 @@
     <!--爆露服务的端口-->
     <dubbo:protocol name="dubbo" port="20883"/>
     <!--声明爆露服务的接口-->
-    <!--<dubbo:service interface="com.hmx.content.interf.ContentCatgory" ref="contentCategoryImpl"/>-->
+    <dubbo:service interface="com.hmx.e3_sso.service.RegisterService" ref="registerServiceImpl"/>
+    <dubbo:service interface="com.hmx.e3_sso.service.LoginService" ref="loginServiceImpl"/>
+    <dubbo:service interface="com.hmx.e3_sso.service.TokenService" ref="tokenServiceImpl"/>
+
 </beans>

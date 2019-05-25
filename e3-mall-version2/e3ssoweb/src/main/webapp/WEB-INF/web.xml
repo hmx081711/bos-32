@@ -21,6 +21,6 @@
     <servlet-mapping>
         <servlet-name>InternalResourceViewResolver2</servlet-name>
         <!--伪静态页面-->
-        <url-pattern>*.html</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>

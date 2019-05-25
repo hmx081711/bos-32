@@ -1,10 +1,15 @@
 com\hmx\e3_pojo\TbContent.class
 com\hmx\e3_pojo\TbContentExample$Criteria.class
 com\hmx\e3_pojo\TbContentExample$GeneratedCriteria.class
+com\hmx\e3_pojo\TbUserExample.class
 com\hmx\e3_pojo\TbContentExample$Criterion.class
 com\hmx\e3_pojo\TbContentCategoryExample$GeneratedCriteria.class
 com\hmx\e3_pojo\TbContentExample.class
 com\hmx\e3_pojo\TbContentCategoryExample$Criteria.class
 com\hmx\e3_pojo\TbContentCategoryExample.class
+com\hmx\e3_pojo\TbUser.class
 com\hmx\e3_pojo\TbContentCategory.class
+com\hmx\e3_pojo\TbUserExample$Criterion.class
+com\hmx\e3_pojo\TbUserExample$Criteria.class
+com\hmx\e3_pojo\TbUserExample$GeneratedCriteria.class
 com\hmx\e3_pojo\TbContentCategoryExample$Criterion.class

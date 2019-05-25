@@ -1,1 +1,3 @@
 com\hmx\e3_ssoColltroller\ShowLoginController.class
+com\hmx\e3_ssoColltroller\ShowRegisterController.class
+com\hmx\e3_ssoColltroller\TokenController.class

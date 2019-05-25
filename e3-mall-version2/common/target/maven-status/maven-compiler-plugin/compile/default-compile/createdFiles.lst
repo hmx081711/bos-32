@@ -1,4 +1,5 @@
 com\hmx\e3_common\pojo\JsonUtils.class
+com\hmx\e3_common\utils\CookieUtils.class
 com\hmx\e3_common\pojo\IDUtils.class
 com\hmx\e3_common\pojo\TaotaoResult.class
 com\hmx\e3_common\pojo\EasyUiDataGridresult.class

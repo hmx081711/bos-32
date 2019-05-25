@@ -1,3 +1,4 @@
+com\hmx\e3_dao\mapper\TbUserMapper.class
 com\hmx\e3_dao\mapper\TbContentMapper.class
 com\hmx\e3_dao\mapper\TbItemDescMapper.class
 com\hmx\e3_dao\mapper\TbContentCategoryMapper.class
