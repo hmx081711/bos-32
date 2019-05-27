@@ -1,5 +1,8 @@
 package com.hmx.e3_common.jedis;
 
+import java.util.List;
+import java.util.Set;
+
 public interface JedisClient {
 
 	String set(String key, String value);
@@ -11,4 +14,7 @@ public interface JedisClient {
 	Long hset(String key, String field, String value);
 	String hget(String key, String field);
 	Long hdel(String key, String... field);
+	Set<String> hkeys(String key);
+	List<String> hvals(String key);
+	boolean hexists(String key,String field);
 }

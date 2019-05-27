@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3cartmanage/e3-cart-interface/e3cartinterface.iml" filepath="$PROJECT_DIR$/e3cartmanage/e3-cart-interface/e3cartinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3cartmanage/e3cartmanage.iml" filepath="$PROJECT_DIR$/e3cartmanage/e3cartmanage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3cartmanage/e3-cart-service/e3cartservice.iml" filepath="$PROJECT_DIR$/e3cartmanage/e3-cart-service/e3cartservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3cartweb/e3cartweb.iml" filepath="$PROJECT_DIR$/e3cartweb/e3cartweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3contant/e3contant.iml" filepath="$PROJECT_DIR$/e3contant/e3contant.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3contant/e3-contant-interface/e3contantinterface.iml" filepath="$PROJECT_DIR$/e3contant/e3-contant-interface/e3contantinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3contant/e3-contant-service/e3contantservice.iml" filepath="$PROJECT_DIR$/e3contant/e3-contant-service/e3contantservice.iml" />

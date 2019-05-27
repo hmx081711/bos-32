@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="e3cartinterface" />
+        <module name="e3cartservice" />
+        <module name="e3cartweb" />
         <module name="e3contantinterface" />
         <module name="e3contantservice" />
         <module name="e3itemweb" />
@@ -27,8 +30,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.hmx" target="1.7" />
       <module name="common" target="1.7" />
       <module name="e3_search" target="1.7" />
+      <module name="e3cartinterface" target="1.7" />
+      <module name="e3cartmanage" target="1.7" />
+      <module name="e3cartservice" target="1.7" />
+      <module name="e3cartweb" target="1.7" />
       <module name="e3contant" target="1.7" />
       <module name="e3contantinterface" target="1.7" />
       <module name="e3contantservice" target="1.7" />

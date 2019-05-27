@@ -7,6 +7,8 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/e3_search/sreach_service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3cartmanage/e3-cart-service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3cartweb" />
     <file type="web" url="file://$PROJECT_DIR$/e3contant/e3-contant-service" />
     <file type="web" url="file://$PROJECT_DIR$/e3itemweb" />
     <file type="web" url="file://$PROJECT_DIR$/e3mallweb" />
@@ -36,6 +38,8 @@
         <option value="$PROJECT_DIR$/e3itemweb/pom.xml" />
         <option value="$PROJECT_DIR$/e3ssomanage/pom.xml" />
         <option value="$PROJECT_DIR$/e3ssoweb/pom.xml" />
+        <option value="$PROJECT_DIR$/e3cartmanage/pom.xml" />
+        <option value="$PROJECT_DIR$/e3cartweb/pom.xml" />
       </list>
     </option>
   </component>

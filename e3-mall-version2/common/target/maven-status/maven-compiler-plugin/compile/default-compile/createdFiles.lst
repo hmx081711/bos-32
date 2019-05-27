@@ -1,6 +1,12 @@
+com\hmx\e3_common\jedis\JedisClientPool.class
 com\hmx\e3_common\pojo\JsonUtils.class
+com\hmx\e3_common\utils\FastDFSClient.class
+com\hmx\e3_common\pojo\EasyUiTreeNode.class
+com\hmx\e3_common\jedis\JedisClient.class
 com\hmx\e3_common\utils\CookieUtils.class
 com\hmx\e3_common\pojo\IDUtils.class
+com\hmx\e3_common\pojo\SearchItem.class
 com\hmx\e3_common\pojo\TaotaoResult.class
 com\hmx\e3_common\pojo\EasyUiDataGridresult.class
+com\hmx\e3_common\jedis\JedisClientCluster.class
 com\hmx\e3_common\pojo\SearchResult.class
