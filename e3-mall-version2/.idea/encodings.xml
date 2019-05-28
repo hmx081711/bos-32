@@ -23,6 +23,14 @@
     <file url="file://$PROJECT_DIR$/e3manage/e3-manage-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3manage/e3-manage-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3manage/e3-manage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3ordermanage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3ordermanage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3ordermanage/e3-order-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3ordermanage/e3-order-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3ordermanage/e3-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3ordermanage/e3-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3orderweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3orderweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3protalweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3searchweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3ssomanage" charset="UTF-8" />

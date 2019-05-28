@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3ordermanage/e3-order-interface/e3-order-interface.iml" filepath="$PROJECT_DIR$/e3ordermanage/e3-order-interface/e3-order-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3ordermanage/e3-order-service/e3-order-service.iml" filepath="$PROJECT_DIR$/e3ordermanage/e3-order-service/e3-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3orderweb/e3-order-web.iml" filepath="$PROJECT_DIR$/e3orderweb/e3-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3cartmanage/e3-cart-interface/e3cartinterface.iml" filepath="$PROJECT_DIR$/e3cartmanage/e3-cart-interface/e3cartinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3cartmanage/e3cartmanage.iml" filepath="$PROJECT_DIR$/e3cartmanage/e3cartmanage.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3cartmanage/e3-cart-service/e3cartservice.iml" filepath="$PROJECT_DIR$/e3cartmanage/e3-cart-service/e3cartservice.iml" />
@@ -18,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/e3manage/e3-manage-interface/e3manageinterface.iml" filepath="$PROJECT_DIR$/e3manage/e3-manage-interface/e3manageinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3manage/e3-manage-pojo/e3managepojo.iml" filepath="$PROJECT_DIR$/e3manage/e3-manage-pojo/e3managepojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3manage/e3-manage-service/e3manageservice.iml" filepath="$PROJECT_DIR$/e3manage/e3-manage-service/e3manageservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3ordermanage/e3ordermanage.iml" filepath="$PROJECT_DIR$/e3ordermanage/e3ordermanage.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3protalweb/e3protalweb.iml" filepath="$PROJECT_DIR$/e3protalweb/e3protalweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3searchweb/e3searchweb.iml" filepath="$PROJECT_DIR$/e3searchweb/e3searchweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3ssomanage/e3-sso-interface/e3ssointerface.iml" filepath="$PROJECT_DIR$/e3ssomanage/e3-sso-interface/e3ssointerface.iml" />

@@ -15,6 +15,10 @@
     <file type="web" url="file://$PROJECT_DIR$/e3manage/e3-mall-web" />
     <file type="web" url="file://$PROJECT_DIR$/e3manage/e3-manage-service" />
     <file type="web" url="file://$PROJECT_DIR$/e3manage/service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3ordermanage/e3-order-interface" />
+    <file type="web" url="file://$PROJECT_DIR$/e3ordermanage/e3-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3ordermanage/e3-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3orderweb" />
     <file type="web" url="file://$PROJECT_DIR$/e3protalweb" />
     <file type="web" url="file://$PROJECT_DIR$/e3searchweb" />
     <file type="web" url="file://$PROJECT_DIR$/e3ssomanage/e3-sso-service" />
@@ -40,6 +44,9 @@
         <option value="$PROJECT_DIR$/e3ssoweb/pom.xml" />
         <option value="$PROJECT_DIR$/e3cartmanage/pom.xml" />
         <option value="$PROJECT_DIR$/e3cartweb/pom.xml" />
+        <option value="$PROJECT_DIR$/e3ordermanage/pom.xml" />
+        <option value="$PROJECT_DIR$/e3ordermanage/e3-order-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/e3orderweb/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="e3-order-interface" />
+        <module name="e3-order-service" />
+        <module name="e3-order-web" />
         <module name="e3cartinterface" />
         <module name="e3cartservice" />
         <module name="e3cartweb" />
@@ -32,6 +35,10 @@
     <bytecodeTargetLevel>
       <module name="com.hmx" target="1.7" />
       <module name="common" target="1.7" />
+      <module name="e3-order-interface" target="1.7" />
+      <module name="e3-order-manage" target="1.7" />
+      <module name="e3-order-service" target="1.7" />
+      <module name="e3-order-web" target="1.7" />
       <module name="e3_search" target="1.7" />
       <module name="e3cartinterface" target="1.7" />
       <module name="e3cartmanage" target="1.7" />
@@ -48,6 +55,9 @@
       <module name="e3manageinterface" target="1.7" />
       <module name="e3managepojo" target="1.7" />
       <module name="e3manageservice" target="1.7" />
+      <module name="e3orderinterface" target="1.7" />
+      <module name="e3ordermanage" target="1.7" />
+      <module name="e3orderservice" target="1.7" />
       <module name="e3protalweb" target="1.7" />
       <module name="e3searchweb" target="1.7" />
       <module name="e3ssointerface" target="1.7" />
