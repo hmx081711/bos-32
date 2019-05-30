@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [29/May/2019:08:21:09 +0800] "GET /search.html?keyword=macbook HTTP/1.1" 200 22522 http-bio-8085-exec-1 3204
+0:0:0:0:0:0:0:1 - - [29/May/2019:08:23:18 +0800] "GET /search.html?keyword=macbook HTTP/1.1" 200 22522 http-bio-8085-exec-4 2508

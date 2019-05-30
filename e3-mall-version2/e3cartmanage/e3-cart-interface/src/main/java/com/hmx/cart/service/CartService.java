@@ -12,4 +12,5 @@ public interface CartService {
     TaotaoResult mergeCart(long userId,List<TbItem> cookieList);
     TaotaoResult updateCartNum(long userId,long itemId,int num);
     TaotaoResult deleteCart(long userId,long itemId);
+    TaotaoResult cleanCart(long userId);
 }

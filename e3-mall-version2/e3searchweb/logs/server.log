@@ -6714,3 +6714,1466 @@ Looking for @ControllerAdvice: WebApplicationContext for namespace 'InternalReso
 
 [INFO ] 2019-05-27 14:42:08,760 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
 FrameworkServlet 'InternalResourceViewResolver3': initialization completed in 1528 ms
+
+
+[INFO ] 2019-05-28 21:33:01,416 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'InternalResourceViewResolver3': initialization started
+
+
+[INFO ] 2019-05-28 21:33:01,448 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Tue May 28 21:33:01 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-28 21:33:01,485 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [springmvc.xml]
+
+
+[INFO ] 2019-05-28 21:33:01,683 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2019-05-28 21:33:01,760 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [resource.properties]
+
+
+[INFO ] 2019-05-28 21:33:01,764 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-05-28 21:33:01,970 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\DELL\.dubbo\dubbo-registry-192.168.208.133.cache, data: {com.hmx.e3_sso.service.RegisterService=empty://192.168.208.1/com.hmx.e3_sso.service.RegisterService?application=e3-sso&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045206077 empty://192.168.208.1/com.hmx.e3_sso.service.RegisterService?application=e3-sso&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045206077 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.RegisterService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=21796&side=provider&timestamp=1559045183939, com.hmx.e3_interface.ItemDescService=empty://192.168.208.1:20880/com.hmx.e3_interface.ItemDescService?anyhost=true&application=e3-manage&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemDescService&methods=findItemDescById,getItemDescById&pid=12136&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045178403, com.hmx.e3_interface.ItemCatService=empty://192.168.208.1:20880/com.hmx.e3_interface.ItemCatService?anyhost=true&application=e3-manage&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemCatService&methods=getCatList&pid=12136&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045178358, com.hmx.e3_sso.service.LoginService=empty://192.168.208.1/com.hmx.e3_sso.service.LoginService?application=e3-sso&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045196769 empty://192.168.208.1/com.hmx.e3_sso.service.LoginService?application=e3-sso&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045196769 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.LoginService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=21796&side=provider&timestamp=1559045193218, com.hmx.cart.service.CartService=empty://192.168.208.1/com.hmx.cart.service.CartService?application=e3-order&category=configurators&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050076512 empty://192.168.208.1/com.hmx.cart.service.CartService?application=e3-order&category=routers&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050076512 dubbo://192.168.208.1:20884/com.hmx.cart.service.CartService?anyhost=true&application=e3-cart&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=10360&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045313752, com.hmx.content.interf.ContentCatgory=empty://192.168.208.1:20881/com.hmx.content.interf.ContentCatgory?anyhost=true&application=e3-content&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.content.interf.ContentCatgory&methods=renameCategory,getCategoryCatList,deleteCategory,addCategory&pid=7956&revision=1.0-SNAPSHOT&side=provider&timestamp=1558938281706, com.hmx.e3_sso.service.TokenService=empty://192.168.208.1/com.hmx.e3_sso.service.TokenService?application=e3-order&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085813 empty://192.168.208.1/com.hmx.e3_sso.service.TokenService?application=e3-order&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085813 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.TokenService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=21796&side=provider&timestamp=1559045193253, com.hmx.order.service.OrderService=empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=configurators&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859 empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=routers&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859 dubbo://192.168.208.1:20885/com.hmx.order.service.OrderService?anyhost=true&application=e3-order&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=4052&revision=1.0-SNAPSHOT&side=provider&timestamp=1559049959910, com.hmx.e3_interface.ItemService=empty://192.168.208.1:20880/com.hmx.e3_interface.ItemService?anyhost=true&application=e3-manage&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemService&methods=addItem,getItemList,onSaleItem,offSaleItem,deleteItem,findItemByd,updateItem&pid=12136&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045168861, com.hmx.content.interf.ContentServce=empty://192.168.208.1:20881/com.hmx.content.interf.ContentServce?anyhost=true&application=e3-content&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.content.interf.ContentServce&methods=getContentBycid,showContentList,editContent,addContent,deleteContent&pid=7956&revision=1.0-SNAPSHOT&side=provider&timestamp=1558938284220, com.hmx.searchService.SearchService=empty://192.168.208.1:20882/com.hmx.searchService.SearchService?anyhost=true&application=e3-search&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=3400&revision=1.0-SNAPSHOT&side=provider&timeout=1200000&timestamp=1559050342656}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2019-05-28 21:33:01,984 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2019-05-28 21:33:11,002 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2019-05-28 21:33:11,003 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-1RPPU61
+
+
+[INFO ] 2019-05-28 21:33:11,004 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=11.0.2
+
+
+[INFO ] 2019-05-28 21:33:11,004 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2019-05-28 21:33:11,004 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=E:\Program Files\Java\jdk-11.0.2
+
+
+[INFO ] 2019-05-28 21:33:11,004 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=E:\maven\apache-maven-3.6.0\boot\plexus-classworlds-2.5.2.jar
+
+
+[INFO ] 2019-05-28 21:33:11,005 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=E:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\CRT\;E:\maven\apache-maven-3.6.0\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Program Files\Java\jdk-11.0.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;;E:\Program Files\Microsoft VS Code\bin;.
+
+
+[INFO ] 2019-05-28 21:33:11,005 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\DELL\AppData\Local\Temp\
+
+
+[INFO ] 2019-05-28 21:33:11,006 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2019-05-28 21:33:11,006 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2019-05-28 21:33:11,006 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2019-05-28 21:33:11,006 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2019-05-28 21:33:11,006 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=DELL
+
+
+[INFO ] 2019-05-28 21:33:11,007 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\DELL
+
+
+[INFO ] 2019-05-28 21:33:11,007 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=E:\eclipse\e3-mall-version2\e3searchweb
+
+
+[INFO ] 2019-05-28 21:33:11,008 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.208.133:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@7aa73cdc
+
+
+[INFO ] 2019-05-28 21:33:11,029 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2019-05-28 21:33:11,033 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.208.133/192.168.208.133:2181, initiating session
+
+
+[INFO ] 2019-05-28 21:33:11,037 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.208.133/192.168.208.133:2181, sessionid = 0x16afea0a5e70002, negotiated timeout = 30000
+
+
+[INFO ] 2019-05-28 21:33:11,039 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2019-05-28 21:33:11,052 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=consumers&check=false&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=8812&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050381913, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-28 21:33:11,339 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=providers,configurators,routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=8812&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050381913, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-28 21:33:11,388 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=providers,configurators,routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=8812&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050381913, urls: [dubbo://192.168.208.1:20882/com.hmx.searchService.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=3400&revision=1.0-SNAPSHOT&side=provider&timeout=1200000&timestamp=1559050342656, empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=configurators&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=8812&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050381913, empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=8812&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050381913], dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-28 21:33:11,501 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /192.168.208.1:20882 from NettyClient 192.168.208.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xd96754f2, /192.168.208.1:54952 => /192.168.208.1:20882]], dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-28 21:33:11,502 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-1RPPU61/192.168.208.1 connect to the server /192.168.208.1:20882, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-28 21:33:11,540 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.hmx.searchService.SearchService from url zookeeper://192.168.208.133:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3protalweb&check=false&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=8812&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1559050381913, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-28 21:33:11,705 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.hmx.e3_search_web.controller.SearchController.search(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws org.apache.solr.client.solrj.SolrServerException,java.io.UnsupportedEncodingException
+
+
+[INFO ] 2019-05-28 21:33:11,953 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Tue May 28 21:33:01 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-28 21:33:11,996 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Tue May 28 21:33:01 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-28 21:33:12,084 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'InternalResourceViewResolver3': initialization completed in 10646 ms
+
+
+[INFO ] 2019-05-28 21:42:44,330 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /192.168.208.1:20882,url:dubbo://192.168.208.1:20882/com.hmx.searchService.SearchService?anyhost=true&application=e3protalweb&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=8812&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1559050381913, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:29:28,001 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'InternalResourceViewResolver3': initialization started
+
+
+[INFO ] 2019-05-29 07:29:28,032 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Wed May 29 07:29:28 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-29 07:29:28,066 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [springmvc.xml]
+
+
+[INFO ] 2019-05-29 07:29:28,441 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2019-05-29 07:29:28,553 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [resource.properties]
+
+
+[INFO ] 2019-05-29 07:29:28,557 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-05-29 07:29:28,819 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\DELL\.dubbo\dubbo-registry-192.168.208.133.cache, data: {com.hmx.e3_sso.service.RegisterService=empty://192.168.208.1/com.hmx.e3_sso.service.RegisterService?application=e3-sso&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045206077 empty://192.168.208.1/com.hmx.e3_sso.service.RegisterService?application=e3-sso&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045206077 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.RegisterService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=21796&side=provider&timestamp=1559045183939, com.hmx.e3_interface.ItemDescService=empty://192.168.208.1:20880/com.hmx.e3_interface.ItemDescService?anyhost=true&application=e3-manage&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemDescService&methods=findItemDescById,getItemDescById&pid=12136&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045178403, com.hmx.e3_interface.ItemCatService=empty://192.168.208.1:20880/com.hmx.e3_interface.ItemCatService?anyhost=true&application=e3-manage&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemCatService&methods=getCatList&pid=12136&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045178358, com.hmx.e3_sso.service.LoginService=empty://192.168.208.1/com.hmx.e3_sso.service.LoginService?application=e3-sso&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045196769 empty://192.168.208.1/com.hmx.e3_sso.service.LoginService?application=e3-sso&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045196769 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.LoginService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=21796&side=provider&timestamp=1559045193218, com.hmx.cart.service.CartService=empty://192.168.208.1/com.hmx.cart.service.CartService?application=e3-order&category=configurators&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050076512 empty://192.168.208.1/com.hmx.cart.service.CartService?application=e3-order&category=routers&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050076512 dubbo://192.168.208.1:20884/com.hmx.cart.service.CartService?anyhost=true&application=e3-cart&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=10360&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045313752, com.hmx.content.interf.ContentCatgory=empty://192.168.208.1:20881/com.hmx.content.interf.ContentCatgory?anyhost=true&application=e3-content&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.content.interf.ContentCatgory&methods=renameCategory,getCategoryCatList,deleteCategory,addCategory&pid=7956&revision=1.0-SNAPSHOT&side=provider&timestamp=1558938281706, com.hmx.e3_sso.service.TokenService=empty://192.168.208.1/com.hmx.e3_sso.service.TokenService?application=e3-order&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085813 empty://192.168.208.1/com.hmx.e3_sso.service.TokenService?application=e3-order&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085813 empty://192.168.208.1/com.hmx.e3_sso.service.TokenService?application=e3-order&category=providers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085813, com.hmx.order.service.OrderService=empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=configurators&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859 empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=routers&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859 empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=providers&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859, com.hmx.e3_interface.ItemService=empty://192.168.208.1:20880/com.hmx.e3_interface.ItemService?anyhost=true&application=e3-manage&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemService&methods=addItem,getItemList,onSaleItem,offSaleItem,deleteItem,findItemByd,updateItem&pid=12136&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045168861, com.hmx.content.interf.ContentServce=empty://192.168.208.1:20881/com.hmx.content.interf.ContentServce?anyhost=true&application=e3-content&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.content.interf.ContentServce&methods=getContentBycid,showContentList,editContent,addContent,deleteContent&pid=7956&revision=1.0-SNAPSHOT&side=provider&timestamp=1558938284220, com.hmx.searchService.SearchService=empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=configurators&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=14196&revision=1.0-SNAPSHOT&side=consumer&timestamp=1558939327752 empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=14196&revision=1.0-SNAPSHOT&side=consumer&timestamp=1558939327752 dubbo://192.168.208.1:20882/com.hmx.searchService.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=16768&revision=1.0-SNAPSHOT&side=provider&timeout=1200000&timestamp=1558938330189}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2019-05-29 07:29:28,834 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2019-05-29 07:29:37,882 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2019-05-29 07:29:37,883 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-1RPPU61
+
+
+[INFO ] 2019-05-29 07:29:37,883 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=11.0.2
+
+
+[INFO ] 2019-05-29 07:29:37,883 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2019-05-29 07:29:37,883 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=E:\Program Files\Java\jdk-11.0.2
+
+
+[INFO ] 2019-05-29 07:29:37,883 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=E:\maven\apache-maven-3.6.0\boot\plexus-classworlds-2.5.2.jar
+
+
+[INFO ] 2019-05-29 07:29:37,884 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=E:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\CRT\;E:\maven\apache-maven-3.6.0\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Program Files\Java\jdk-11.0.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;;E:\Program Files\Microsoft VS Code\bin;.
+
+
+[INFO ] 2019-05-29 07:29:37,884 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\DELL\AppData\Local\Temp\
+
+
+[INFO ] 2019-05-29 07:29:37,884 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2019-05-29 07:29:37,885 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2019-05-29 07:29:37,885 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2019-05-29 07:29:37,885 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2019-05-29 07:29:37,886 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=DELL
+
+
+[INFO ] 2019-05-29 07:29:37,886 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\DELL
+
+
+[INFO ] 2019-05-29 07:29:37,886 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=E:\eclipse\e3-mall-version2\e3searchweb
+
+
+[INFO ] 2019-05-29 07:29:37,887 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.208.133:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2c2796da
+
+
+[INFO ] 2019-05-29 07:29:37,909 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:38,914 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:29:40,018 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:41,021 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:29:42,123 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:43,124 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:29:44,225 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:45,228 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:29:46,335 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:47,350 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:29:48,451 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:49,456 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:29:50,557 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:51,559 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:29:52,660 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:53,661 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:29:54,762 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:55,769 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:29:56,870 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:57,872 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:29:58,973 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:29:59,976 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:01,077 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:02,080 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:03,180 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:04,184 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:05,284 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:06,287 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:07,388 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:08,389 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:09,491 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:10,492 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:11,593 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:12,596 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:13,697 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:14,699 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:15,800 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:16,813 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:17,914 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:18,916 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:20,019 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:21,020 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:22,121 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:23,124 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:24,225 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:25,226 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:26,327 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:27,330 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:28,431 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:29,434 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:30,534 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:31,536 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:32,638 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:33,649 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:34,751 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:35,753 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:36,855 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:37,857 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:38,958 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:39,970 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:41,072 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:42,074 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:43,175 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:44,178 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:45,279 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:46,280 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:47,380 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:48,382 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:49,484 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:50,486 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:51,587 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:52,588 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:53,690 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:54,702 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:55,803 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:56,803 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:30:57,904 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:30:58,906 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:00,008 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:01,009 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:02,110 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:03,110 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:04,212 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:05,213 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:06,314 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:07,317 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:08,419 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:09,430 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:10,531 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:11,533 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:12,634 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:13,637 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:14,737 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:15,740 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:16,842 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:17,854 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:18,955 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:19,957 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:21,058 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:22,060 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:23,161 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:24,175 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:25,276 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:26,289 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:27,389 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:28,391 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:29,492 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:30,506 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:31,607 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:32,609 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:33,710 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:34,711 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:35,812 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2019-05-29 07:31:36,845 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2019-05-29 07:31:37,947 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2019-05-29 07:31:38,449 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.208.133/192.168.208.133:2181, initiating session
+
+
+[INFO ] 2019-05-29 07:31:39,710 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1158)
+Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+
+
+[INFO ] 2019-05-29 07:31:41,201 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2019-05-29 07:31:41,201 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.208.133/192.168.208.133:2181, initiating session
+
+
+[INFO ] 2019-05-29 07:31:41,202 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1158)
+Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+
+
+[INFO ] 2019-05-29 07:31:42,504 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2019-05-29 07:31:42,504 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.208.133/192.168.208.133:2181, initiating session
+
+
+[INFO ] 2019-05-29 07:31:42,513 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.208.133/192.168.208.133:2181, sessionid = 0x16b00c902610003, negotiated timeout = 30000
+
+
+[INFO ] 2019-05-29 07:31:42,516 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2019-05-29 07:31:42,592 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=consumers&check=false&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=16624&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086168724, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:31:42,625 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=providers,configurators,routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=16624&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086168724, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:31:42,708 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=providers,configurators,routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=16624&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086168724, urls: [dubbo://192.168.208.1:20882/com.hmx.searchService.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=10688&revision=1.0-SNAPSHOT&side=provider&timeout=1200000&timestamp=1559086172730, empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=configurators&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=16624&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086168724, empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=16624&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086168724], dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:31:43,316 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /192.168.208.1:20882 from NettyClient 192.168.208.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x0ca5e85f, /192.168.208.1:59387 => /192.168.208.1:20882]], dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:31:43,318 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-1RPPU61/192.168.208.1 connect to the server /192.168.208.1:20882, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:31:43,519 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.hmx.searchService.SearchService from url zookeeper://192.168.208.133:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3protalweb&check=false&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=16624&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1559086168724, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:31:44,340 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.hmx.e3_search_web.controller.SearchController.search(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws org.apache.solr.client.solrj.SolrServerException,java.io.UnsupportedEncodingException
+
+
+[INFO ] 2019-05-29 07:31:45,346 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Wed May 29 07:29:28 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-29 07:31:45,448 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Wed May 29 07:29:28 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-29 07:31:45,620 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'InternalResourceViewResolver3': initialization completed in 137606 ms
+
+
+[ERROR] 2019-05-29 07:33:23,478 method:com.hmx.e3_search_web.exceptionResolver.GlobalExceptionResovler.resolveException(GlobalExceptionResovler.java:20)
+系统出现错误
+org.apache.solr.client.solrj.SolrServerException: No live SolrServers available to handle this request
+	at org.apache.solr.client.solrj.impl.LBHttpSolrServer.request(LBHttpSolrServer.java:317)
+	at org.apache.solr.client.solrj.impl.CloudSolrServer.request(CloudSolrServer.java:659)
+	at org.apache.solr.client.solrj.request.QueryRequest.process(QueryRequest.java:91)
+	at org.apache.solr.client.solrj.SolrServer.query(SolrServer.java:301)
+	at com.hmx.dao.SrearchDao.getSearchResult(SrearchDao.java:26)
+	at com.hmx.searchServiceImpl.SearchServiceImpl.getSearchItemList(SearchServiceImpl.java:87)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:60)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:112)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:108)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+[INFO ] 2019-05-29 07:33:23,480 method:com.hmx.e3_search_web.exceptionResolver.GlobalExceptionResovler.resolveException(GlobalExceptionResovler.java:21)
+系统出现问题
+
+
+[INFO ] 2019-05-29 07:33:59,071 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'InternalResourceViewResolver3': initialization started
+
+
+[INFO ] 2019-05-29 07:33:59,094 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Wed May 29 07:33:59 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-29 07:33:59,129 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [springmvc.xml]
+
+
+[INFO ] 2019-05-29 07:33:59,450 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2019-05-29 07:33:59,539 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [resource.properties]
+
+
+[INFO ] 2019-05-29 07:33:59,543 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-05-29 07:33:59,765 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\DELL\.dubbo\dubbo-registry-192.168.208.133.cache, data: {com.hmx.e3_sso.service.RegisterService=empty://192.168.208.1/com.hmx.e3_sso.service.RegisterService?application=e3-sso&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045206077 empty://192.168.208.1/com.hmx.e3_sso.service.RegisterService?application=e3-sso&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045206077 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.RegisterService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=21796&side=provider&timestamp=1559045183939, com.hmx.e3_interface.ItemDescService=empty://192.168.208.1:20880/com.hmx.e3_interface.ItemDescService?anyhost=true&application=e3-manage&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemDescService&methods=findItemDescById,getItemDescById&pid=12136&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045178403, com.hmx.e3_interface.ItemCatService=empty://192.168.208.1:20880/com.hmx.e3_interface.ItemCatService?anyhost=true&application=e3-manage&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemCatService&methods=getCatList&pid=12136&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045178358, com.hmx.e3_sso.service.LoginService=empty://192.168.208.1/com.hmx.e3_sso.service.LoginService?application=e3-sso&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045196769 empty://192.168.208.1/com.hmx.e3_sso.service.LoginService?application=e3-sso&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045196769 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.LoginService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=21796&side=provider&timestamp=1559045193218, com.hmx.cart.service.CartService=empty://192.168.208.1/com.hmx.cart.service.CartService?application=e3-cart&category=configurators&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086371376 empty://192.168.208.1/com.hmx.cart.service.CartService?application=e3-cart&category=routers&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086371376 dubbo://192.168.208.1:20884/com.hmx.cart.service.CartService?anyhost=true&application=e3-cart&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=18736&revision=1.0-SNAPSHOT&side=provider&timestamp=1559086149900, com.hmx.content.interf.ContentCatgory=empty://192.168.208.1:20881/com.hmx.content.interf.ContentCatgory?anyhost=true&application=e3-content&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.content.interf.ContentCatgory&methods=renameCategory,getCategoryCatList,deleteCategory,addCategory&pid=7956&revision=1.0-SNAPSHOT&side=provider&timestamp=1558938281706, com.hmx.e3_sso.service.TokenService=empty://192.168.208.1/com.hmx.e3_sso.service.TokenService?application=e3-cart&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086371483 empty://192.168.208.1/com.hmx.e3_sso.service.TokenService?application=e3-cart&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086371483 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.TokenService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=12948&side=provider&timestamp=1559086302057, com.hmx.order.service.OrderService=empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=configurators&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859 empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=routers&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859 empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=providers&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859, com.hmx.e3_interface.ItemService=empty://192.168.208.1/com.hmx.e3_interface.ItemService?application=e3-cart&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemService&methods=addItem,getItemList,onSaleItem,offSaleItem,deleteItem,findItemByd,updateItem&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086361836 empty://192.168.208.1/com.hmx.e3_interface.ItemService?application=e3-cart&category=routers&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemService&methods=addItem,getItemList,onSaleItem,offSaleItem,deleteItem,findItemByd,updateItem&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086361836 dubbo://192.168.208.1:20880/com.hmx.e3_interface.ItemService?anyhost=true&application=e3-manage&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemService&methods=addItem,getItemList,onSaleItem,offSaleItem,deleteItem,findItemByd,updateItem&pid=19240&revision=1.0-SNAPSHOT&side=provider&timestamp=1559086317197, com.hmx.content.interf.ContentServce=empty://192.168.208.1/com.hmx.content.interf.ContentServce?application=e3protalweb&category=configurators&dubbo=2.5.3&interface=com.hmx.content.interf.ContentServce&methods=getContentBycid,showContentList,editContent,deleteContent,addContent&pid=10416&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086372671 empty://192.168.208.1/com.hmx.content.interf.ContentServce?application=e3protalweb&category=routers&dubbo=2.5.3&interface=com.hmx.content.interf.ContentServce&methods=getContentBycid,showContentList,editContent,deleteContent,addContent&pid=10416&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086372671 dubbo://192.168.208.1:20881/com.hmx.content.interf.ContentServce?anyhost=true&application=e3-content&dubbo=2.5.3&interface=com.hmx.content.interf.ContentServce&methods=getContentBycid,showContentList,editContent,addContent,deleteContent&pid=20504&revision=1.0-SNAPSHOT&side=provider&timestamp=1559086304038, com.hmx.searchService.SearchService=empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=configurators&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=14196&revision=1.0-SNAPSHOT&side=consumer&timestamp=1558939327752 empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=14196&revision=1.0-SNAPSHOT&side=consumer&timestamp=1558939327752 dubbo://192.168.208.1:20882/com.hmx.searchService.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=16768&revision=1.0-SNAPSHOT&side=provider&timeout=1200000&timestamp=1558938330189}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2019-05-29 07:33:59,779 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2019-05-29 07:34:08,825 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2019-05-29 07:34:08,826 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-1RPPU61
+
+
+[INFO ] 2019-05-29 07:34:08,826 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=11.0.2
+
+
+[INFO ] 2019-05-29 07:34:08,827 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2019-05-29 07:34:08,827 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=E:\Program Files\Java\jdk-11.0.2
+
+
+[INFO ] 2019-05-29 07:34:08,827 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=E:\maven\apache-maven-3.6.0\boot\plexus-classworlds-2.5.2.jar
+
+
+[INFO ] 2019-05-29 07:34:08,827 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=E:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\CRT\;E:\maven\apache-maven-3.6.0\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Program Files\Java\jdk-11.0.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;;E:\Program Files\Microsoft VS Code\bin;.
+
+
+[INFO ] 2019-05-29 07:34:08,827 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\DELL\AppData\Local\Temp\
+
+
+[INFO ] 2019-05-29 07:34:08,828 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2019-05-29 07:34:08,828 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2019-05-29 07:34:08,829 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2019-05-29 07:34:08,829 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2019-05-29 07:34:08,829 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=DELL
+
+
+[INFO ] 2019-05-29 07:34:08,829 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\DELL
+
+
+[INFO ] 2019-05-29 07:34:08,829 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=E:\eclipse\e3-mall-version2\e3searchweb
+
+
+[INFO ] 2019-05-29 07:34:08,830 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.208.133:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@1d1677e9
+
+
+[INFO ] 2019-05-29 07:34:08,870 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2019-05-29 07:34:08,875 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.208.133/192.168.208.133:2181, initiating session
+
+
+[INFO ] 2019-05-29 07:34:08,880 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.208.133/192.168.208.133:2181, sessionid = 0x16b00c902610010, negotiated timeout = 30000
+
+
+[INFO ] 2019-05-29 07:34:08,881 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2019-05-29 07:34:08,898 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=consumers&check=false&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086439688, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:34:08,916 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=providers,configurators,routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086439688, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:34:08,949 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=providers,configurators,routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086439688, urls: [dubbo://192.168.208.1:20882/com.hmx.searchService.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=10688&revision=1.0-SNAPSHOT&side=provider&timeout=1200000&timestamp=1559086172730, empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=configurators&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086439688, empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086439688], dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:34:09,126 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /192.168.208.1:20882 from NettyClient 192.168.208.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x9ae9024a, /192.168.208.1:59910 => /192.168.208.1:20882]], dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:34:09,128 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-1RPPU61/192.168.208.1 connect to the server /192.168.208.1:20882, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:34:09,174 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.hmx.searchService.SearchService from url zookeeper://192.168.208.133:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3protalweb&check=false&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1559086439688, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:34:09,290 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.hmx.e3_search_web.controller.SearchController.search(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws org.apache.solr.client.solrj.SolrServerException,java.io.UnsupportedEncodingException
+
+
+[INFO ] 2019-05-29 07:34:09,547 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Wed May 29 07:33:59 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-29 07:34:09,582 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Wed May 29 07:33:59 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-29 07:34:09,671 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'InternalResourceViewResolver3': initialization completed in 10597 ms
+
+
+[ERROR] 2019-05-29 07:34:22,987 method:com.hmx.e3_search_web.exceptionResolver.GlobalExceptionResovler.resolveException(GlobalExceptionResovler.java:20)
+系统出现错误
+org.apache.solr.client.solrj.SolrServerException: No live SolrServers available to handle this request
+	at org.apache.solr.client.solrj.impl.LBHttpSolrServer.request(LBHttpSolrServer.java:317)
+	at org.apache.solr.client.solrj.impl.CloudSolrServer.request(CloudSolrServer.java:659)
+	at org.apache.solr.client.solrj.request.QueryRequest.process(QueryRequest.java:91)
+	at org.apache.solr.client.solrj.SolrServer.query(SolrServer.java:301)
+	at com.hmx.dao.SrearchDao.getSearchResult(SrearchDao.java:26)
+	at com.hmx.searchServiceImpl.SearchServiceImpl.getSearchItemList(SearchServiceImpl.java:87)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:60)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:112)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:108)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+[INFO ] 2019-05-29 07:34:22,989 method:com.hmx.e3_search_web.exceptionResolver.GlobalExceptionResovler.resolveException(GlobalExceptionResovler.java:21)
+系统出现问题
+
+
+[INFO ] 2019-05-29 07:40:57,077 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'InternalResourceViewResolver3': initialization started
+
+
+[INFO ] 2019-05-29 07:40:57,089 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Wed May 29 07:40:57 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-29 07:40:57,119 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [springmvc.xml]
+
+
+[INFO ] 2019-05-29 07:40:57,331 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2019-05-29 07:40:57,396 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [resource.properties]
+
+
+[INFO ] 2019-05-29 07:40:57,400 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-05-29 07:40:57,618 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\DELL\.dubbo\dubbo-registry-192.168.208.133.cache, data: {com.hmx.e3_sso.service.RegisterService=empty://192.168.208.1/com.hmx.e3_sso.service.RegisterService?application=e3-sso&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045206077 empty://192.168.208.1/com.hmx.e3_sso.service.RegisterService?application=e3-sso&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045206077 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.RegisterService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.RegisterService&methods=checkData,registerUser&pid=21796&side=provider&timestamp=1559045183939, com.hmx.e3_interface.ItemDescService=empty://192.168.208.1:20880/com.hmx.e3_interface.ItemDescService?anyhost=true&application=e3-manage&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemDescService&methods=findItemDescById,getItemDescById&pid=12136&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045178403, com.hmx.e3_interface.ItemCatService=empty://192.168.208.1:20880/com.hmx.e3_interface.ItemCatService?anyhost=true&application=e3-manage&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemCatService&methods=getCatList&pid=12136&revision=1.0-SNAPSHOT&side=provider&timestamp=1559045178358, com.hmx.e3_sso.service.LoginService=empty://192.168.208.1/com.hmx.e3_sso.service.LoginService?application=e3-sso&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045196769 empty://192.168.208.1/com.hmx.e3_sso.service.LoginService?application=e3-sso&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=5856&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559045196769 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.LoginService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.LoginService&methods=login&pid=21796&side=provider&timestamp=1559045193218, com.hmx.cart.service.CartService=empty://192.168.208.1/com.hmx.cart.service.CartService?application=e3-cart&category=configurators&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086371376 empty://192.168.208.1/com.hmx.cart.service.CartService?application=e3-cart&category=routers&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086371376 dubbo://192.168.208.1:20884/com.hmx.cart.service.CartService?anyhost=true&application=e3-cart&dubbo=2.5.3&interface=com.hmx.cart.service.CartService&methods=cleanCart,getItemListFromRedis,addToCart,mergeCart,updateCartNum,deleteCart&pid=18736&revision=1.0-SNAPSHOT&side=provider&timestamp=1559086149900, com.hmx.content.interf.ContentCatgory=empty://192.168.208.1:20881/com.hmx.content.interf.ContentCatgory?anyhost=true&application=e3-content&category=configurators&check=false&dubbo=2.5.3&interface=com.hmx.content.interf.ContentCatgory&methods=renameCategory,getCategoryCatList,deleteCategory,addCategory&pid=7956&revision=1.0-SNAPSHOT&side=provider&timestamp=1558938281706, com.hmx.e3_sso.service.TokenService=empty://192.168.208.1/com.hmx.e3_sso.service.TokenService?application=e3-cart&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086371483 empty://192.168.208.1/com.hmx.e3_sso.service.TokenService?application=e3-cart&category=routers&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086371483 dubbo://192.168.208.1:20883/com.hmx.e3_sso.service.TokenService?anyhost=true&application=e3-sso&dubbo=2.5.3&interface=com.hmx.e3_sso.service.TokenService&methods=getUserInfoByToken&pid=12948&side=provider&timestamp=1559086302057, com.hmx.order.service.OrderService=empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=configurators&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859 empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=routers&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859 empty://192.168.208.1/com.hmx.order.service.OrderService?application=e3-order&category=providers&dubbo=2.5.3&interface=com.hmx.order.service.OrderService&methods=CreateOrder&pid=9672&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559050085859, com.hmx.e3_interface.ItemService=empty://192.168.208.1/com.hmx.e3_interface.ItemService?application=e3-cart&category=configurators&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemService&methods=addItem,getItemList,onSaleItem,offSaleItem,deleteItem,findItemByd,updateItem&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086361836 empty://192.168.208.1/com.hmx.e3_interface.ItemService?application=e3-cart&category=routers&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemService&methods=addItem,getItemList,onSaleItem,offSaleItem,deleteItem,findItemByd,updateItem&pid=16512&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086361836 dubbo://192.168.208.1:20880/com.hmx.e3_interface.ItemService?anyhost=true&application=e3-manage&dubbo=2.5.3&interface=com.hmx.e3_interface.ItemService&methods=addItem,getItemList,onSaleItem,offSaleItem,deleteItem,findItemByd,updateItem&pid=19240&revision=1.0-SNAPSHOT&side=provider&timestamp=1559086317197, com.hmx.content.interf.ContentServce=empty://192.168.208.1/com.hmx.content.interf.ContentServce?application=e3protalweb&category=configurators&dubbo=2.5.3&interface=com.hmx.content.interf.ContentServce&methods=getContentBycid,showContentList,editContent,deleteContent,addContent&pid=10416&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086372671 empty://192.168.208.1/com.hmx.content.interf.ContentServce?application=e3protalweb&category=routers&dubbo=2.5.3&interface=com.hmx.content.interf.ContentServce&methods=getContentBycid,showContentList,editContent,deleteContent,addContent&pid=10416&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086372671 dubbo://192.168.208.1:20881/com.hmx.content.interf.ContentServce?anyhost=true&application=e3-content&dubbo=2.5.3&interface=com.hmx.content.interf.ContentServce&methods=getContentBycid,showContentList,editContent,addContent,deleteContent&pid=20504&revision=1.0-SNAPSHOT&side=provider&timestamp=1559086304038, com.hmx.searchService.SearchService=empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=configurators&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086439688 empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=1884&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086439688 dubbo://192.168.208.1:20882/com.hmx.searchService.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=10688&revision=1.0-SNAPSHOT&side=provider&timeout=1200000&timestamp=1559086172730}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2019-05-29 07:40:57,630 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2019-05-29 07:41:06,675 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2019-05-29 07:41:06,676 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-1RPPU61
+
+
+[INFO ] 2019-05-29 07:41:06,676 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=11.0.2
+
+
+[INFO ] 2019-05-29 07:41:06,676 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2019-05-29 07:41:06,676 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=E:\Program Files\Java\jdk-11.0.2
+
+
+[INFO ] 2019-05-29 07:41:06,676 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=E:\maven\apache-maven-3.6.0\boot\plexus-classworlds-2.5.2.jar
+
+
+[INFO ] 2019-05-29 07:41:06,677 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=E:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\CRT\;E:\maven\apache-maven-3.6.0\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Program Files\Java\jdk-11.0.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;;E:\Program Files\Microsoft VS Code\bin;.
+
+
+[INFO ] 2019-05-29 07:41:06,677 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\DELL\AppData\Local\Temp\
+
+
+[INFO ] 2019-05-29 07:41:06,677 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2019-05-29 07:41:06,678 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2019-05-29 07:41:06,678 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2019-05-29 07:41:06,679 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2019-05-29 07:41:06,679 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=DELL
+
+
+[INFO ] 2019-05-29 07:41:06,679 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\DELL
+
+
+[INFO ] 2019-05-29 07:41:06,679 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=E:\eclipse\e3-mall-version2\e3searchweb
+
+
+[INFO ] 2019-05-29 07:41:06,680 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.208.133:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@58379a97
+
+
+[INFO ] 2019-05-29 07:41:06,719 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.208.133/192.168.208.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2019-05-29 07:41:06,721 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.208.133/192.168.208.133:2181, initiating session
+
+
+[INFO ] 2019-05-29 07:41:06,727 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.208.133/192.168.208.133:2181, sessionid = 0x16b00c902610012, negotiated timeout = 30000
+
+
+[INFO ] 2019-05-29 07:41:06,728 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2019-05-29 07:41:06,741 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=consumers&check=false&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=7604&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086857524, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:41:06,756 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=providers,configurators,routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=7604&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086857524, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:41:06,777 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=providers,configurators,routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=7604&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086857524, urls: [dubbo://192.168.208.1:20882/com.hmx.searchService.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=10688&revision=1.0-SNAPSHOT&side=provider&timeout=1200000&timestamp=1559086172730, empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=configurators&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=7604&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086857524, empty://192.168.208.1/com.hmx.searchService.SearchService?application=e3protalweb&category=routers&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=7604&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559086857524], dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:41:06,878 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /192.168.208.1:20882 from NettyClient 192.168.208.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xfc4c5fd6, /192.168.208.1:60595 => /192.168.208.1:20882]], dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:41:06,879 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-1RPPU61/192.168.208.1 connect to the server /192.168.208.1:20882, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:41:06,908 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.hmx.searchService.SearchService from url zookeeper://192.168.208.133:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3protalweb&check=false&dubbo=2.5.3&interface=com.hmx.searchService.SearchService&methods=getSearchItemList,getAllItems&pid=7604&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1559086857524, dubbo version: 2.5.3, current host: 192.168.208.1
+
+
+[INFO ] 2019-05-29 07:41:07,038 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search]}" onto public java.lang.String com.hmx.e3_search_web.controller.SearchController.search(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws org.apache.solr.client.solrj.SolrServerException,java.io.UnsupportedEncodingException
+
+
+[INFO ] 2019-05-29 07:41:07,320 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Wed May 29 07:40:57 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-29 07:41:07,358 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'InternalResourceViewResolver3-servlet': startup date [Wed May 29 07:40:57 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-05-29 07:41:07,451 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'InternalResourceViewResolver3': initialization completed in 10372 ms

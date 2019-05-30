@@ -79,4 +79,9 @@ public class JedisClientCluster implements JedisClient {
 		return jedisCluster.hexists(key,field);
 	}
 
+	@Override
+	public Long del(String key) {
+		return jedisCluster.del(key);
+	}
+
 }

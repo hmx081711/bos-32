@@ -6,6 +6,7 @@ import com.hmx.e3_sso.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -25,7 +26,8 @@ public class ShowLoginController {
      * @return 登陆的视图
      */
     @RequestMapping(value = "/page/login")
-    public String login() {
+    public String login(String redirect, Model model) {
+        model.addAttribute("redirect",redirect);
         return "login";
     }
 
@@ -39,7 +41,8 @@ public class ShowLoginController {
      */
     @RequestMapping(value = "/user/login",method = RequestMethod.POST)
     @ResponseBody
-    public TaotaoResult login(String username, String password, HttpServletRequest request, HttpServletResponse response) {
+    public TaotaoResult login(String username, String password, HttpServletRequest request
+            , HttpServletResponse response) {
         //调用登录服务
         TaotaoResult result = loginService.login(username, password);
         //判断用户是否登录成功

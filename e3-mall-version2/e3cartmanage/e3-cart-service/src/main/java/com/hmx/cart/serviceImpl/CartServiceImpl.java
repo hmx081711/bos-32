@@ -122,4 +122,15 @@ public class CartServiceImpl implements CartService {
         jedisClient.hdel(CART_KEY + ":" + userId,itemId + "");
         return TaotaoResult.ok();
     }
+
+    /**
+     * 清空购物车
+     * @param userId 用户id
+     * @return TaotaoResult对象
+     */
+    @Override
+    public TaotaoResult cleanCart(long userId) {
+        jedisClient.del(CART_KEY + ":" + userId);
+        return TaotaoResult.ok();
+    }
 }

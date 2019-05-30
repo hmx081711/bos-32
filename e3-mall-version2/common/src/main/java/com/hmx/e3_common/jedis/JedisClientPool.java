@@ -94,6 +94,7 @@ public class JedisClientPool implements JedisClient {
 	public Set<String> hkeys(String key) {
 		Jedis jedis = jedisPool.getResource();
 		Set<String> hkeys = jedis.hkeys(key);
+		jedis.close();
 		return hkeys;
 	}
 
@@ -101,6 +102,7 @@ public class JedisClientPool implements JedisClient {
 	public List<String> hvals(String key) {
 		Jedis jedis = jedisPool.getResource();
 		List<String> hvals = jedis.hvals(key);
+		jedis.close();
 		return hvals;
 	}
 
@@ -108,8 +110,14 @@ public class JedisClientPool implements JedisClient {
 	public boolean hexists(String key, String field) {
 		Jedis jedis = jedisPool.getResource();
 		Boolean hexists = jedis.hexists(key, field);
+		jedis.close();
 		return hexists;
 	}
 
-
+	@Override
+	public Long del(String key) {
+		Jedis jedis = jedisPool.getResource();
+		Long del = jedis.del(key);
+		return del;
+	}
 }
